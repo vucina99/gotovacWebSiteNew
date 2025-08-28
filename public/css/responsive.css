@@ -1,0 +1,89 @@
+@media (max-width: 575.98px) {
+    .logo-link{
+        width: 60px ;
+    }
+    .nav-link{
+        margin-left: 0 !important;
+    }
+    #header-carousel .carousel-item img {
+        min-height: 80vh;     /* 50% visine ekrana */
+        object-fit: cover;    /* iseče višak slike da popuni prostor */
+        object-position: left center;
+    }
+}
+
+/*za malo veće telefone*/
+@media (min-width: 355px) and (max-width: 575.9px) {
+    .logo-link{
+        width: 70px ;
+    }
+    .nav-link{
+        margin-left: 0 !important;
+    }
+    #header-carousel .carousel-item img {
+        min-height: 80vh;     /* 50% visine ekrana */
+        object-fit: cover;    /* iseče višak slike da popuni prostor */
+        object-position: left center;
+
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .logo-link{
+        width: 72px ;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        padding-left: 0px;
+    }
+    .nav-link{
+        margin-left: 0 !important;
+    }
+    #header-carousel .carousel-item img {
+        min-height: 80vh;     /* 50% visine ekrana */
+        object-fit: cover;    /* iseče višak slike da popuni prostor */
+        object-position: left center;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .logo-link{
+        width: 73px ;
+    }
+    .nav-link{
+        margin-left: 0 !important;
+    }
+    #header-carousel .carousel-item img {
+        min-height: 80vh;     /* 50% visine ekrana */
+        object-fit: cover;    /* iseče višak slike da popuni prostor */
+        object-position: left center;
+
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .logo-link{
+        width: 80px ;
+    }
+    #header-carousel .carousel-item img {
+        min-height: 80vh;     /* 50% visine ekrana */
+        object-fit: cover;    /* iseče višak slike da popuni prostor */
+        object-position: left center;
+
+    }
+}
+
+@media (min-width: 1200px) {
+    .logo-link{
+        width: 92px ;
+    }
+    #header-carousel .carousel-item img {
+        min-height: 90vh;     /* 50% visine ekrana */
+        object-fit: cover;    /* iseče višak slike da popuni prostor */
+        object-position: left center;
+
+    }
+}
+
+
+

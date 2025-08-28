@@ -1,0 +1,112 @@
+.blue-papir{
+    background-image: url("../img/papir_plavi.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.white-papir{
+    background-image: url("../img/papir_beli.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.zaposleni{
+    width: 260px;
+    height: 150px;
+}
+
+body, html, h1, h2, h3, h4, h5, h6, p, a, span, div , a {
+    font-family: "Cinzel", serif;
+}
+.container {
+    padding-left: 10px !important;    /* menja padding levo */
+    padding-right: 10px !important;   /* menja padding desno */
+}
+.logo-link img{
+    background-color: #06A3DA;
+}
+.logo-link img{
+    padding: 5px;
+}
+.header-box{
+    max-width: 1000px;
+}
+.papir{
+    height: 150px;
+}
+.papir .icon{
+    width: 60px; height: 60px;
+}
+.cenovnik{
+    background-image: url("../img/papir_plavi.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cenovnik{
+    padding: 10px 0px;
+    background-image: url("../img/papir_plavi.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cenovnik img {
+    cursor: pointer;
+    animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(0.95); }
+    100% { transform: scale(1); }
+}
+.partneri img {
+    height: 80px;        /* svi partneri iste visine */
+    width: auto;         /* širina proporcionalna */
+    object-fit: contain; /* osigurava da se lepo uklopi */
+    margin: 0 auto;      /* centriranje */
+    display: block;
+}
+.partneri .owl-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial-item img{
+    width: 60px !important;
+    height: 60px !important;
+}
+.faq-body{
+    background-color:var(--light) !important;
+}
+.accordion-flush .accordion-item .accordion-button{
+    background-color: var(--light) !important;
+
+}
+.drzava{
+    font-size: 23px;
+}
+.place{
+    font-size: 17px;
+}
+.drzavaInfo{
+    font-size: 14.5px !important;
+}
+.contact-container h4{
+    font-size: 17px;
+}
+.contact-container h4{
+    font-size: 17px;
+}
+.contact-container h5{
+    font-size: 18px;
+}
+.prices th{
+    font-size: 14px !important;
+}
+.thminwidth{
+    min-width: 250px !important;
+}
+.prices td{
+    font-size: 14px !important;
+}
