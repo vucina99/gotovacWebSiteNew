@@ -38,7 +38,7 @@ Our law office also represents foreign insurance companies in recourse proceedin
 In over 70% of cases, insurance companies either avoid paying compensation to injured parties or pay only partial amounts, relying on statistics that show only a small percentage of injured individuals will hire a lawyer and initiate court proceedings.
 <br><br>
 
-If, during the course of our representation, it becomes clear that you will not receive financial compensation, our services are completely free of charge. We do not solicit clients by phone or send promotional letters by post — our best recommendation is the large number of satisfied clients who have placed their trust in us.
+If, during the course of our representation, it becomes clear that you will not receive financial compensation, our Services are completely free of charge. We do not solicit clients by phone or send promotional letters by post — our best recommendation is the large number of satisfied clients who have placed their trust in us.
 <br><br>
 
 For more information, please visit us at our office or contact us by phone or email.",
@@ -69,7 +69,7 @@ Sending formal notices demanding timely settlement of outstanding debts,<br>
 
 Engaging in professional communication with the debtor regarding repayment of the debt.<br><br>
 
-Our law office maintains successful cooperation with accounting agencies in providing legal services to their clients. Based in Belgrade, our office offers debt collection services for clients throughout the Republic of Serbia and the Republic of Srpska.',
+Our law office maintains successful cooperation with accounting agencies in providing legal Services to their clients. Based in Belgrade, our office offers debt collection Services for clients throughout the Republic of Serbia and the Republic of Srpska.',
     "proces" => "How long does the compensation process take?",
     "proces text" => "When all conditions are met and the necessary documentation has been submitted, the insurance company is legally obliged to pay the full amount within 14 days. However, the speed of resolution depends on the complexity of each individual case – some claims may be processed even sooner. If it becomes necessary to initiate court proceedings, the process is significantly prolonged, as litigation generally takes more time.",
     "nepoznato" => "I was hit by an unidentified vehicle. What should I do next?",

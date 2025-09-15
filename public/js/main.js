@@ -16,14 +16,49 @@
     new WOW().init();
 
 
-    // Sticky Navbar
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 45) {
-            $('.navbar').addClass('sticky-top');
+    function updateNavbar() {
+        if (window.matchMedia("(max-width: 991px)").matches) {
+            // Mobilni i tablet (Bootstrap < 992px)
+            $('.guestNavbar')
+                .addClass('fixed-top bg-white')
+                .removeClass('sticky-top');
+
+            $("#home").addClass("mt-5 pt-5");
+            $(".bg-header").addClass("mt-5 pt-5");
         } else {
-            $('.navbar').removeClass('sticky-top ');
+            // Desktop
+            $('.guestNavbar')
+                .addClass('sticky-top')
+                .removeClass('fixed-top bg-white');
+
+            // sticky se menja na osnovu skrola
+            if ($(window).scrollTop() > 45) {
+                $('.guestNavbar').addClass('sticky-top');
+            } else {
+                $('.guestNavbar').removeClass('sticky-top');
+            }
+
+            $("#home").removeClass("mt-5 pt-5");
+            $(".bg-header").removeClass("mt-5 pt-5");
+        }
+    }
+
+    $(document).ready(updateNavbar);
+    $(window).on('scroll', updateNavbar);
+    $(window).on('resize', updateNavbar);
+
+    $(".offcanvas-body a").click(function () {
+        // Uzimamo instancu offcanvas-a po ID-u
+        var offcanvasElement = document.getElementById('offcanvasNavbar');
+        var bsOffcanvas = bootstrap.Offcanvas.getInstance(offcanvasElement);
+
+        // Ako je instanca pronađena, zatvori offcanvas
+        if (bsOffcanvas) {
+            bsOffcanvas.hide();
         }
     });
+
+
 
     // Dropdown on mouse hover
     const $dropdown = $(".dropdown");
@@ -103,7 +138,6 @@
         loop: true,
         margin: 45,
         dots: false,
-        loop: true,
         autoplay: true,
         smartSpeed: 1000,
         responsive: {

@@ -61,4 +61,62 @@ return [
     'tarifa' => 'Advokatska tarifa',
     'tarifa podnaslov' => 'Transparentne i jasno utvrđene cene usluga.',
     'preuzmi' => 'Preuzmi',
+    'konsultacije' => 'Online konsultacije',
+    'konsultacije podnaslov' => 'Zakažite svoju online konsultaciju',
+    'datum i vreme' => 'Izaberite datum i vreme',
+    'zakazi termin' => 'Zakaži termin',
+    'uspesnoZakazivanje' => 'Vaša online konsultacija je uspešno zakazana.',
+    'usluge' => 'Advokatske usluge',
+    'usluge podnaslov' => 'Pouzdane pravne usluge i stručna advokatska podrška',
+    'advokat za saobracaj' => 'Advokat za saobraćajne nezgode',
+    'privredno pravo' => 'Advokat za privredno pravo',
+    'krivicno pravo' => 'Advokat za krivično pravo',
+    'obligaciono pravo' => 'Advokat za obligaciono pravo',
+    'osiguranje pravo' => 'Advokat za pravo osiguranja',
+    'respolaganje' => 'Za sva dodatna pitanja stojimo Vam na raspolaganju, kontaktirajte nas putem broja telefona, e-mail adrese ili preko kontakt forme.',
+    'privredno usluge' => '<ul class="Services-list  w-100">
+    <li>Ugovori u privredi</li>
+    <li>Izrada svih vrsta ugovora u privredi</li>
+    <li>Obezbeđenje potraživanja</li>
+    <li>Devizno poslovanje</li>
+    <li>Odbrana u prekršajnim postupcima privrednih prestupa</li>
+    <li>Pravo intelektualne svojine</li>
+    <li>Savetovanje preduzeća iz oblasti radnog prava</li>
+    <li>Zastupanje stranih privrednih subjekata u Srbiji</li>
+</ul>',
+    'obligaciono usluge' => '<ul class="Services-list  w-100">
+    <li>Naknada štete – materijalne i nematerijalne</li>
+    <li>Modaliteti isplate duga</li>
+    <li>Prinudna izvršenja i naplata potraživanja</li>
+</ul>',
+    'krivicno usluge' => '<ul class="Services-list  w-100">
+   <li>Zastupanje fizičkih lica pred sudom za dela opšteg kriminaliteta</li>
+    <li>Zastupanje pravnih lica u privrednim prestupima i krivičnim delima</li>
+</ul>',
+    'osiguranje usluge' => '<ul class="Services-list  w-100">
+  <li>Savetovanje i zastupanje kod sporova između osiguravajućeg društva i ugovarača osiguranja</li>
+    <li>Zastupanje pri naknadi štete kod osiguranog slučaja</li>
+</ul>',
+    'saobracajke usluge' => '<ul class="Services-list  w-100">
+   <li>Evropski izveštaji</li>
+    <li>Kasko štete</li>
+    <li>Nezgode sa pešacima</li>
+    <li>Štete na vozilima</li>
+    <li>Štete u javnom prevozu</li>
+    <li>Telesne povrede</li>
+    <li>Smrtni slučajevi</li>
+</ul>',
+    'uspesno slanje poruke' => "Uspešno ste poslali poruku kancelariji Gotovac.",
+    'savetovanje' => "Pravno savetovanje",
+    'savetovanje podnaslov' => "Potreban Vam je savet? budite slobodni da nas kontaktirate",
+    'odgovor' => 'Odgovaramo u roku od 24 sata',
+    'dostupnost' => 'Telefonska podrška 24 sata',
+    'brzi text' => 'Naša kancelarija pruža sveobuhvatno pravno savetovanje zasnovano na dugogodišnjem iskustvu i stručnoj ekspertizi. Klijentima obezbeđujemo pouzdane i praktične savete prilagođene njihovim potrebama, kako bi doneli prave odluke i zaštitili svoja prava i interese. Stojimo vam na raspolaganju da zajedno pronađemo najbolje rešenje.',
+    'blog' => 'Blog',
+    'pretraga' => 'Pretraga',
+    'kategorije' => 'Kategorije',
+    'procitaj vise' => 'Pročitaj više',
+    'prethodna' => 'Prethodna',
+    'sledeca' => 'Sledeća',
+    'blog objava' => 'Blog objava'
 ];

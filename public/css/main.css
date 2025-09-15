@@ -3,6 +3,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
 }
 .white-papir{
     background-image: url("../img/papir_beli.png");
@@ -105,8 +106,57 @@ body, html, h1, h2, h3, h4, h5, h6, p, a, span, div , a {
     font-size: 14px !important;
 }
 .thminwidth{
-    min-width: 250px !important;
+    min-width: 300px !important;
+}
+.thminwidth-cassic{
+    min-width: 200px !important;
 }
 .prices td{
     font-size: 14px !important;
 }
+.loginPage{
+    min-height: 80vh;
+    background: linear-gradient(to bottom, #06162d, #ffffff);
+
+}
+.contact-form span{
+    font-size: 13px !important;
+}
+ .dp__action_select{
+
+    width: 110px !important;
+    height: 35px  !important;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.datepicker .dp__input{
+    height: 55px;
+    font-family: "Cinzel", serif !important;
+}
+.datepicker .dp__input_wrap input::placeholder{
+    color:black !important;
+}
+.datepicker .dp__input_icon{
+    display: none !important;
+}
+.minh{
+    padding-top: 8vh;
+    min-height: 90vh;
+}
+.tableSize tr{
+    font-size: 14px !important;
+}
+.tableSize tr td, .tableSize tr th{
+   padding: 6px 15px 2px 15px;
+}
+.paginationsty button , .paginationsty span{
+    font-size: 15px;
+}
+.blog-item{
+    cursor: pointer;
+}
+.blog-item .card-text{
+    font-size: 14px !important;
+}
+

@@ -176,47 +176,70 @@
         <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" id="services">
             <div class="container py-5">
                 <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                    <h5 class="fw-bold text-primary text-uppercase">Our Services</h5>
-                    <h1 class="mb-0">Custom IT Solutions for Your Successful Business</h1>
+                    <h5 class="fw-bold text-primary text-uppercase">{{__("index.usluge")}}</h5>
+                    <h1 class="mb-0">{{__("index.usluge podnaslov")}}</h1>
                 </div>
                 <div class="row g-5">
-                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                        <div
-                            class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                            <div class="service-icon">
-                                <i class="fa fa-shield-alt text-white"></i>
-                            </div>
-                            <h4 class="mb-3">Cyber Security</h4>
-                            <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore
-                                sed</p>
-                            <a class="btn btn-lg btn-primary rounded" href="">
-                                <i class="bi bi-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
-                        <div
-                            class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                            <div class="service-icon">
-                                <i class="fa fa-chart-pie text-white"></i>
-                            </div>
-                            <h4 class="mb-3">Data Analytics</h4>
-                            <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore
-                                sed</p>
-                            <a class="btn btn-lg btn-primary rounded" href="">
-                                <i class="bi bi-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
+
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
                         <div
-                            class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                            <div class="service-icon">
+                            class="service-item bg-light rounded d-flex flex-column align-items-center   text-center">
+                            <div class="service-icon mt-5">
                                 <i class="fa fa-code text-white"></i>
                             </div>
-                            <h4 class="mb-3">Web Development</h4>
-                            <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore
-                                sed</p>
+                            <h4 class="mb-3">{{__("index.advokat za saobracaj")}}</h4>
+                            <p class="m-0">
+                                {!! __("index.saobracajke usluge") !!}
+                            </p>
+                            <a class="btn btn-lg btn-primary rounded" href="">
+                                <i class="bi bi-arrow-up"></i>
+                            </a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                        <div
+                            class="service-item bg-light rounded d-flex flex-column align-items-center   text-center">
+                            <div class="service-icon mt-5">
+                                <i class="fa fa-code text-white"></i>
+                            </div>
+                            <h4 class="mb-3">{{__("index.privredno pravo")}}</h4>
+                            <p class="m-0">
+                                {!! __("index.privredno usluge") !!}
+                            </p>
+                            <a class="btn btn-lg btn-primary rounded" href="">
+                                <i class="bi bi-arrow-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                        <div
+                            class="service-item bg-light rounded d-flex flex-column align-items-center   text-center">
+                            <div class="service-icon mt-5">
+                                <i class="fa fa-code text-white"></i>
+                            </div>
+                            <h4 class="mb-3">{{__("index.obligaciono pravo")}}</h4>
+                            <p class="m-0">
+                                {!! __("index.obligaciono usluge") !!}
+                            </p>
+                            <a class="btn btn-lg btn-primary rounded" href="">
+                                <i class="bi bi-arrow-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                        <div
+                            class="service-item bg-light rounded d-flex flex-column align-items-center   text-center">
+                            <div class="service-icon mt-5">
+                                <i class="fa fa-code text-white"></i>
+                            </div>
+                            <h4 class="mb-3">{{__("index.krivicno pravo")}}</h4>
+                            <p class="m-0">
+                                {!! __("index.krivicno usluge") !!}
+
+                            </p>
                             <a class="btn btn-lg btn-primary rounded" href="">
                                 <i class="bi bi-arrow-right"></i>
                             </a>
@@ -224,27 +247,12 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                         <div
-                            class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                            <div class="service-icon">
-                                <i class="fab fa-android text-white"></i>
+                            class="service-item bg-light rounded d-flex flex-column align-items-center   text-center">
+                            <div class="service-icon mt-5">
+                                <i class="fa fa-code text-white"></i>
                             </div>
-                            <h4 class="mb-3">Apps Development</h4>
-                            <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore
-                                sed</p>
-                            <a class="btn btn-lg btn-primary rounded" href="">
-                                <i class="bi bi-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
-                        <div
-                            class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                            <div class="service-icon">
-                                <i class="fa fa-search text-white"></i>
-                            </div>
-                            <h4 class="mb-3">SEO Optimization</h4>
-                            <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore
-                                sed</p>
+                            <h4 class="mb-3">{{__("index.osiguranje pravo")}}</h4>
+                            <p class="m-0">     {!! __("index.osiguranje usluge") !!} </p>
                             <a class="btn btn-lg btn-primary rounded" href="">
                                 <i class="bi bi-arrow-right"></i>
                             </a>
@@ -252,11 +260,12 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
                         <div
-                            class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
-                            <h3 class="text-white mb-3">Call Us For Quote</h3>
-                            <p class="text-white mb-3">Clita ipsum magna kasd rebum at ipsum amet dolor justo dolor est
-                                magna stet eirmod</p>
-                            <h2 class="text-white mb-0">+012 345 6789</h2>
+                            class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center py-5 px-3">
+                            <br>
+                            <h3 class="text-white mb-4 ">{{__("index.kontaktirajte nas")}}</h3>
+                            <p class="text-white mb-3 fst-italic   pb-4">{{__("index.respolaganje")}}</p>
+                            <a href="/kontakt"><button class="btn btn-outline-light py-3 px-5">{{__("index.kontakt")}}</button></a>
+                            <br><br>
                         </div>
                     </div>
                 </div>
@@ -411,66 +420,102 @@
                 <div class="row g-5">
                     <div class="col-lg-7">
                         <div class="section-title position-relative pb-3 mb-5">
-                            <h5 class="fw-bold text-primary text-uppercase">Request A Quote</h5>
-                            <h1 class="mb-0">Need A Free Quote? Please Feel Free to Contact Us</h1>
+                            <h5 class="fw-bold text-primary text-uppercase">{{__("index.savetovanje")}}</h5>
+                            <h1 class="mb-0">{{__("index.savetovanje podnaslov")}}</h1>
                         </div>
                         <div class="row gx-3">
                             <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                                <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Reply within 24 hours</h5>
+                                <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>{{__("index.odgovor")}}</h5>
                             </div>
                             <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                                <h5 class="mb-4"><i class="fa fa-phone-alt text-primary me-3"></i>24 hrs telephone
-                                    support</h5>
+                                <h5 class="mb-4"><i class="fa fa-phone-alt text-primary me-3"></i> {{__("index.dostupnost")}}</h5>
                             </div>
                         </div>
-                        <p class="mb-4">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea
-                            et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos
-                            vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit.
-                            Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
-                        <div class="d-flex align-items-center mt-2 wow zoomIn" data-wow-delay="0.6s">
-                            <div class="bg-primary d-flex align-items-center justify-content-center rounded"
-                                 style="width: 60px; height: 60px;">
-                                <i class="fa fa-phone-alt text-white"></i>
+                        <p class="mb-1">{{__("index.brzi text")}}</p>
+
+                        <div class="d-flex justify-content-between flex-wrap ">
+                            <div class="d-flex align-items-center mt-5 wow zoomIn" data-wow-delay="0.6s">
+                                <div class="bg-primary d-flex align-items-center justify-content-center rounded"
+                                     style="width: 60px; height: 60px;">
+                                    <i class="fa fa-phone-alt text-white"></i>
+                                </div>
+                                <div class="ps-4">
+                                    <h5 class="mb-2">{{__("index.broj telefona")}} (SR)</h5>
+                                    <h4 class="text-primary mb-0"><a href="tel:+381116906807" class="mb-0 text-primary">+381116906807</a></h4>
+                                </div>
                             </div>
-                            <div class="ps-4">
-                                <h5 class="mb-2">Call to ask any question</h5>
-                                <h4 class="text-primary mb-0">+012 345 6789</h4>
+
+                            <div class="d-flex align-items-center mt-5 wow zoomIn" data-wow-delay="0.6s">
+                                <div class="bg-primary d-flex align-items-center justify-content-center rounded"
+                                     style="width: 60px; height: 60px;">
+                                    <i class="fa fa-phone-alt text-white"></i>
+                                </div>
+                                <div class="ps-4">
+                                    <h5 class="mb-2">{{__("index.broj telefona")}} (RS)</h5>
+                                    <h4 class="text-primary mb-0"><a href="tel:+38765325077" class="mb-0 text-primary">+38765325077</a> </h4>
+                                </div>
                             </div>
                         </div>
+
                     </div>
-                    <div class="col-lg-5 ">
-                        <div class="white-papir rounded h-100 d-flex align-items-center p-5 wow zoomIn"
+                    <div class="col-lg-5 " id="contact-form">
+                        <div class="white-papir rounded h-100  align-items-center p-5 wow zoomIn"
                              data-wow-delay="0.9s">
-                            <form class="py-5"><br>
-                                <div class="row g-3">
-                                    <div class="col-xl-12">
-                                        <input type="text" class="form-control bg-white border-0"
-                                               placeholder="Your Name" style="height: 55px;">
+                            <br>
+
+                            <form method="post" class="py-3" action="/contact" >
+                                @if(session('success'))
+                                    <div class="alert alert-success">
+                                        {{ session('success') }}
+                                    </div>
+                                @endif
+                                @csrf
+                                <div class="row g-3 pt-3 pb-4">
+                                    <div class="col-12">
+                                        <input type="text" name="name"  id="name"   class="form-control border-0 bg-white  @error('name') border-1 is-invalid @enderror" placeholder="{{__("index.vase ime")}}"
+                                               style="height: 55px;">
+
+                                        @error('name')
+                                        <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                        @enderror
                                     </div>
                                     <div class="col-12">
-                                        <input type="email" class="form-control bg-white border-0"
-                                               placeholder="Your Email" style="height: 55px;">
+                                        <input type="text"  name="email"   id="email"  class="form-control border-0 bg-white   @error('email') border-1 is-invalid @enderror"  placeholder="{{__("index.vas email")}}"
+                                               style="height: 55px;">
+                                        @error('email')
+                                        <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                        @enderror
                                     </div>
                                     <div class="col-12">
-                                        <select class="form-select bg-white border-0" style="height: 55px;">
-                                            <option selected>Select A Service</option>
-                                            <option value="1">Service 1</option>
-                                            <option value="2">Service 2</option>
-                                            <option value="3">Service 3</option>
-                                        </select>
+                                        <input type="text"  name="subject" id="subject" class="form-control border-0 bg-white @error('subject') border-1 is-invalid @enderror" placeholder="{{__("index.vas subject")}}"
+                                               style="height: 55px;">
+                                        @error('subject')
+                                        <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                        @enderror
                                     </div>
                                     <div class="col-12">
-                                        <textarea class="form-control bg-white border-0" rows="3"
-                                                  placeholder="Message"></textarea>
+                                <textarea class="form-control border-0 bg-white  @error('subject') border-1  is-invalid @enderror" rows="4"
+                                          placeholder="{{__("index.vasa poruka")}}"  id="message"  name="message" ></textarea>
+                                        @error('message')
+                                        <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                        @enderror
                                     </div>
                                     <div class="col-12 pb-5">
-                                        <button class="btn bg-light-blue text-white w-100 py-3" type="submit">Request A
-                                            Quote
-                                        </button>
+                                        <button class="btn bg-light-blue text-white w-100 py-3" type="submit">{{__("index.posalji poruku")}}</button>
                                     </div>
                                 </div>
-                                <br><br><br>
                             </form>
+                            <br><br><br>
+
+
 
                         </div>
                     </div>

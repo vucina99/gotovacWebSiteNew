@@ -106,7 +106,7 @@ h6,
     margin-left: 25px;
     padding: 35px 0;
     color: #FFFFFF;
-    font-size: 16.5px;
+    font-size: 15px;
     font-weight: 600;
     outline: none;
     transition: .5s;
@@ -260,11 +260,17 @@ h6,
 /*** Service ***/
 .service-item {
     position: relative;
-    height: 300px;
-    padding: 0 30px;
+    min-height: 65vh;
+    padding: 30px 10px 30px 10px;
     transition: .5s;
 }
-
+.service-item h4{
+    font-size: 26px;
+}
+.service-item  li {
+    font-size: 15.5px;
+    text-align: start;
+}
 .service-item .service-icon {
     margin-bottom: 30px;
     width: 60px;
@@ -399,6 +405,17 @@ h6,
 .team-item:hover .team-img img,
 .blog-item:hover .blog-img img {
     transform: scale(1.15);
+}
+
+
+.blog-img{
+    width: 100%;
+    height: 15rem
+}
+.blog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 

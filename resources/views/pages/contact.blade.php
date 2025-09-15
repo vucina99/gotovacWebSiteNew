@@ -147,24 +147,50 @@
 
             </div>
             <div class="row g-5">
-                <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
-                    <form>
+                <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s"  id="contact-form">
+                    <form method="post" action="/contact">
+                        @if(session('success'))
+                            <div class="alert alert-success">
+                                {{ session('success') }}
+                            </div>
+                        @endif
+                        @csrf
                         <div class="row g-3">
                             <div class="col-md-6">
-                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="{{__("index.vase ime")}}"
+                                <input type="text" class="form-control border-0 bg-light px-4 @error('name') border-1 is-invalid @enderror"  name="name" placeholder="{{__("index.vase ime")}}"  value="{{ old('name') }}"
                                        style="height: 55px;">
+                                @error('name')
+                                <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                             </div>
                             <div class="col-md-6">
-                                <input type="email" class="form-control border-0 bg-light px-4"  placeholder="{{__("index.vas email")}}"
+                                <input type="text" class="form-control border-0 bg-light px-4  @error('email') border-1 is-invalid @enderror" name="email"  placeholder="{{__("index.vas email")}}" value="{{ old('email') }}"
                                        style="height: 55px;">
+                                @error('email')
+                                <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                             </div>
                             <div class="col-12">
-                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="{{__("index.vas subject")}}"
+                                <input type="text" class="form-control border-0 bg-light px-4 @error('subject') border-1 is-invalid @enderror" name="subject" placeholder="{{__("index.vas subject")}}"  value="{{ old('subject') }}"
                                        style="height: 55px;">
+                                @error('subject')
+                                <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                             </div>
                             <div class="col-12">
-                                <textarea class="form-control border-0 bg-light px-4 py-3" rows="4"
-                                          placeholder="{{__("index.vasa poruka")}}"></textarea>
+                                <textarea class="form-control border-0 bg-light px-4 py-3  @error('message') border-1 is-invalid @enderror" name="message" rows="4"
+                                          placeholder="{{__("index.vasa poruka")}}" ></textarea>
+                                @error('message')
+                                <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                             </div>
                             <div class="col-12">
                                 <button class="btn btn-primary w-100 py-3" type="submit">{{__("index.posalji poruku")}}</button>
