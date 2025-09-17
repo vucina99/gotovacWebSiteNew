@@ -1,4 +1,5 @@
 /********** Template CSS **********/
+
 :root {
     --primary: #0056b3;
     --secondary: #34AD54;
@@ -261,7 +262,7 @@ h6,
 .service-item {
     position: relative;
     min-height: 65vh;
-    padding: 30px 10px 30px 10px;
+    padding: 0 10px 0 10px;
     transition: .5s;
 }
 .service-item h4{
@@ -273,14 +274,14 @@ h6,
 }
 .service-item .service-icon {
     margin-bottom: 30px;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: var(--primary);
     border-radius: 2px;
-    transform: rotate(-45deg);
+
 }
 
 .service-item .service-icon i {
@@ -461,4 +462,11 @@ h6,
 }
 .text-primary{
     color:#0056b3 !important;
+}
+.allTextBackground {
+    width: 100% !important;
+}
+.allTextBackground * {
+
+    width: 100% !important;
 }

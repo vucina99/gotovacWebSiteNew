@@ -29,7 +29,7 @@ export default {
                             <img :src="post.image.path" class="img-fluid vastrener-border" alt="">
                         </div>
 
-                        <div v-html="post.content" class="allTextBackground">
+                        <div v-html="post.content" class="allTextBackground w-100">
 
                         </div>
                     </div>

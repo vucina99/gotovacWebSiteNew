@@ -111,7 +111,7 @@
                     <div class="d-inline-flex align-items-center" style="height: 45px;">
                         <small class="me-3 text-light"><a href="tel:0653338933" class="text-light"><i
                                     class="fa fa-mobile me-2"></i>+381 65-3338933</a></small>
-                        <small class="me-3 text-light"><a href="tel:+381116906807" class="text-light"><i
+                        <small class="text-light"><a href="tel:+381116906807" class="text-light"><i
                                     class="fa fa-phone-alt me-2"></i>+381116906807</a></small>
                     </div>
                 </div>
@@ -186,9 +186,9 @@
 
 
     @auth
-        <nav class="navbar  bg-dark navbar-dark  px-5 py-1 py-lg-0">
+        <nav class="navbar  bg-dark navbar-dark  px-3 py-1 py-lg-0">
             @else
-                <nav class="navbar guestNavbar  navbar-dark  px-5 py-1 py-lg-0">
+                <nav class="navbar guestNavbar  navbar-dark  px-3 py-1 py-lg-0">
 
                     @endauth
                     <div class="container">
@@ -213,11 +213,12 @@
                                     <a href="/#home" class="nav-item nav-link ">{{__("index.pocetna")}}</a>
                                     <a href="/#about" class="nav-item nav-link">{{__("index.O nama")}}</a>
                                     <a href="/#services" class="nav-item nav-link">{{__("index.usluge")}}</a>
+                                    <a href="/#question" class="nav-item nav-link">{{__("index.najcesca pitanja")}}</a>
                                     <a href="/#review" class="nav-item nav-link">{{__("index.Recenzije")}}</a>
                                     <a href="/#team" class="nav-item nav-link">{{__("index.tim")}}</a>
                                     <a href="/advokatska-tarifa" class="nav-item nav-link">{{__("index.tarifa")}}</a>
-
                                     <a href="/online-konsultacije" class="nav-item nav-link">{{__("index.konsultacije")}}</a>
+                                    <a href="/kalkulator-trudnicke-naknade" class="nav-item nav-link">{{__("index.za trudnice")}}</a>
                                     <a href="/kontakt" class="nav-item nav-link me-4">{{__("index.kontakt")}}</a>
                                     <a href="/blog" class="nav-item nav-link">{{__("index.blog")}}</a>
                                     <a href="/login" class="nav-item nav-link">Log in </a>

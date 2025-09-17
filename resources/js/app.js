@@ -15,6 +15,8 @@ import CreateBlog from "@/components/admin/CreateBlog.vue";
 import AdminBlogList from "@/components/admin/AdminBlogList.vue";
 import BlogList from "@/components/pages/BlogList.vue";
 import BlogPost from "@/components/pages/BlogPost.vue";
+import NewBlogList from "@/components/pages/NewBlogList.vue";
+import MaternityCalculator from "@/components/pages/MaternityCalculator.vue";
 
 // ⚠️ Nemoj ovde uvoziti bootstrap ili jQuery – oni idu iz CDN-a u Blade-u.
 
@@ -30,6 +32,8 @@ const VUE_TAGS = [
     'create-blog',
     'admin-blog-list',
     'blog-list',
+    'new-blog-list',
+    'maternity-calculator',
     'blog-post'
 ];
 
@@ -54,6 +58,8 @@ if (needVue && appRoot) {
     app.component('create-blog', CreateBlog);
     app.component('admin-blog-list', AdminBlogList);
     app.component('blog-list', BlogList);
+    app.component('new-blog-list', NewBlogList);
+    app.component('maternity-calculator', MaternityCalculator);
     app.component('blog-post', BlogPost);
     app.component('VueDatePicker', VueDatePicker);
 

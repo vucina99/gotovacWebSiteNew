@@ -15,6 +15,7 @@ Route::get('/advokatska-tarifa', [IndexController::class, 'tariff']);
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/online-konsultacije', [IndexController::class, 'consultation'])->name('home');
 Route::get('/promeni-jezik/{lang}', [IndexController::class, 'changeLanguage']);
+Route::get('/kalkulator-trudnicke-naknade', [IndexController::class, 'allowanceCalculator']);
 
 
 

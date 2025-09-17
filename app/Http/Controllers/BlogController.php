@@ -59,6 +59,10 @@ class BlogController extends Controller
 
     }
 
+
+
+
+
     public function createNewPostPage()
     {
         $getCategories = BlogCategory::select("id", "name")->get();

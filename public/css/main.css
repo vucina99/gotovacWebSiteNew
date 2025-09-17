@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
 
 }
+
 .white-papir{
     background-image: url("../img/papir_beli.png");
     background-position: center;
@@ -159,4 +160,7 @@ body, html, h1, h2, h3, h4, h5, h6, p, a, span, div , a {
 .blog-item .card-text{
     font-size: 14px !important;
 }
-
+.nav-link:hover {
+    margin-left:6px;
+    transition: 1s;
+}

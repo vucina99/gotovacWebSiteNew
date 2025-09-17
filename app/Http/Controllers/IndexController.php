@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\ConsultationReservation;
 use App\Http\Requests\ContactValidate;
+use App\Http\Resources\BlogListResource;
 use App\Mail\SendGotovacMail;
+use App\Models\Blog;
 use App\Models\Consultation;
 use App\Traits\StatusCode;
 use Illuminate\Http\Request;
@@ -15,7 +17,9 @@ class IndexController extends Controller
     use StatusCode;
     public function index()
     {
-        return view('index');
+        $blogsData = Blog::with("blogCategory")->activeBlog()->orderByDesc("date" , "desc")->take(3)->get();
+        $blogs = BlogListResource::collection($blogsData);
+        return view('index' , compact("blogs"));
     }
 
     public function contact()
@@ -33,7 +37,10 @@ class IndexController extends Controller
     }
 
 
-
+    public function allowanceCalculator()
+    {
+        return view("pages.calculator");
+    }
 
     public function contactGotovac(ContactValidate $request)
     {
