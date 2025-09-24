@@ -42,6 +42,10 @@ class IndexController extends Controller
         return view("pages.calculator");
     }
 
+    public function gallery()
+    {
+        return view("pages.gallery");
+    }
     public function contactGotovac(ContactValidate $request)
     {
         Mail::to(env("MAIL_FROM_ADDRESS"))->send(new SendGotovacMail($request->name, $request->subjcet, $request->email, $request->message));

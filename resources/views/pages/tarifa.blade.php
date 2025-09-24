@@ -1,6 +1,28 @@
 @extends("content")
 
+@section("seo")
 
+    <title>Advokatska tarifa | Advokatska kancelarija Gotovac</title>
+    <meta name="twitter:title" content="Advokatska tarifa | Advokatska kancelarija Gotovac">
+    <meta property="og:title" content="Advokatska tarifa | Advokatska kancelarija Gotovac"/>
+
+
+    <meta property="og:keywords"
+          content="advokatska tarifa, cene advokatskih usluga, advokat Beograd tarifa, advokatska kancelarija Gotovac i saradnici, naknada troškova advokata"/>
+    <meta name="keywords" content="kalkulator trudničke naknade, advokat za trudničko bolovanje Beograd, naknada zarade u trudnoći, trudnička naknada obračun, advokatska kancelarija Gotovac">
+
+    <link rel="canonical" href="https://advokatigotovac.com/advokatska-tarifa"/>
+
+    <meta property="og:description"
+          content="Pregled advokatske tarife i cena pravnih usluga. Advokatska kancelarija Gotovac i saradnici iz Beograda – saznajte troškove i naknade advokata"/>
+    <meta name="twitter:description"
+          content="Pregled advokatske tarife i cena pravnih usluga. Advokatska kancelarija Gotovac i saradnici iz Beograda – saznajte troškove i naknade advokata">
+    <meta name="description"
+          content="Pregled advokatske tarife i cena pravnih usluga. Advokatska kancelarija Gotovac i saradnici iz Beograda – saznajte troškove i naknade advokata">
+
+    <meta name="robots" content="index, follow">
+
+@endsection
 @section("content")
 
     <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
@@ -9,9 +31,9 @@
                 <div class="text-center d-flex align-items-center h-100">
                     <div>
                         <h1 class="display-4 text-white animated zoomIn">{{__("index.tarifa")}}</h1>
-                        <a href="/" class="h5 text-white">{{__("index.pocetna")}}</a>
+                        <a href="/" class="h5 text-white" title="Početna strana">{{__("index.pocetna")}}</a>
                         <i class="far fa-circle text-white px-2"></i>
-                        <a href="/kontakt" class="h5 text-white">{{__("index.tarifa")}}</a>
+                        <a href="/kontakt" class="h5 text-white" title="Strana advokatska tarifa">{{__("index.tarifa")}}</a>
                     </div>
                 </div>
             </div>
@@ -24,10 +46,10 @@
         <div class="container py-5 pt-0">
             <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold text-primary text-uppercase">{{__("index.tarifa")}}</h5>
-                <h1 class="mb-0"> {{__("index.tarifa podnaslov")}}</h1>
+                <h2 class="mb-0"> {{__("index.tarifa podnaslov")}}</h2>
             </div>
             <br>
-            <a href="{{asset("assets/files/tarifa-gotovac.pdf")}}"
+            <a href="{{asset("assets/files/tarifa-gotovac.pdf")}}" title="Preuzimanje PDF dokument advokatske tarife 2025"
                class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" download>  {{__("index.preuzmi")}} PDF  </a>
             <br> <br>
             <div class="table-responsive">

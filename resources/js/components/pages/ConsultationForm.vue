@@ -29,6 +29,13 @@ export default {
             axios.post("/reservation/consultation", this.data).then(({data}) => {
                 this.successReservation = true;
                 this.errors = "";
+                this.data = {
+                        date_time: '',
+                        name: '',
+                        phone: '',
+                        email: '',
+                        message: ''
+                },
                 window.loader(false);
             }).catch((error) => {
                 console.log(error)

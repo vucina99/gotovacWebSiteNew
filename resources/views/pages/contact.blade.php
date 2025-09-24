@@ -1,5 +1,28 @@
 @extends("content")
 
+@section("seo")
+
+    <title>Kontakt | Advokatska kancelarija Gotovac</title>
+    <meta name="twitter:title" content="Kontakt | Advokatska kancelarija Gotovac">
+    <meta property="og:title" content="Kontakt | Advokatska kancelarija Gotovac"/>
+    <link rel="canonical" href="https://advokatigotovac.com/kontakt"/>
+
+    <meta property="og:keywords"
+          content="kontakt advokat Beograd, advokatska kancelarija Gotovac i saradnici, kontakt informacije, pravna pomoć Beograd"/>
+    <meta name="keywords"
+          content="kontakt advokat Beograd, advokatska kancelarija Gotovac i saradnici, kontakt informacije, pravna pomoć Beograd">
+
+
+    <meta property="og:description"
+          content="Kontaktirajte advokatsku kancelariju Gotovac i saradnici u Beogradu. Dostupni smo za pravne savete, konsultacije i zakazivanje sastanaka"/>
+    <meta name="twitter:description"
+          content="Kontaktirajte advokatsku kancelariju Gotovac i saradnici u Beogradu. Dostupni smo za pravne savete, konsultacije i zakazivanje sastanaka">
+    <meta name="description"
+          content="Kontaktirajte advokatsku kancelariju Gotovac i saradnici u Beogradu. Dostupni smo za pravne savete, konsultacije i zakazivanje sastanaka">
+
+    <meta name="robots" content="index, follow">
+
+@endsection
 
 @section("content")
 
@@ -9,9 +32,9 @@
                 <div class="text-center d-flex align-items-center h-100">
                     <div>
                         <h1 class="display-4 text-white animated zoomIn">{{__("index.kontaktirajte nas")}}</h1>
-                        <a href="/" class="h5 text-white">{{__("index.pocetna")}}</a>
+                        <a href="/" class="h5 text-white" title="Početna strana">{{__("index.pocetna")}}</a>
                         <i class="far fa-circle text-white px-2"></i>
-                        <a href="/kontakt" class="h5 text-white">{{__("index.kontakt")}}</a>
+                        <a href="/kontakt" class="h5 text-white" title="Kontakt informacije kacnelarije Gotovac">{{__("index.kontakt")}}</a>
                     </div>
                 </div>
             </div>
@@ -24,7 +47,7 @@
         <div class="container py-5 pt-0">
             <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold text-primary text-uppercase">{{__("index.kontakt")}}</h5>
-                <h1 class="mb-0"> {{__("index.kontakt podnaslov")}}</h1>
+                <h2 class="mb-0"> {{__("index.kontakt podnaslov")}}</h2>
             </div>
             <br>
             <div class="row g-5 mb-5 mt-3">
@@ -64,7 +87,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">{{__("index.broj telefona")}} (SR)</h5>
-                            <h4 class="text-primary mb-0"><a href="tel:+381653338933" class="mb-0 text-primary">+381
+                            <h4 class="text-primary mb-0"><a href="tel:+381653338933" class="mb-0 text-primary" title="Telefon advokatske kancelarije u Beogradu">+381
                                     65/333-8933</a></h4>
                         </div>
                     </div>
@@ -79,7 +102,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">{{__("index.broj telefona")}} (RS)</h5>
-                            <h4 class="text-primary mb-0"><a href="tel:+38756210752" class="mb-0 text-primary">+38756210752</a>
+                            <h4 class="text-primary mb-0"><a href="tel:+38756210752" title="Telefon advokatske kancelarije u Banja Luci" class="mb-0 text-primary">+38756210752</a>
                             </h4>
                         </div>
                     </div>
@@ -95,7 +118,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">{{__("index.broj telefona")}} (SR)</h5>
-                            <h4 class="text-primary mb-0"><a href="tel:+381116906807" class="mb-0 text-primary">+381116906807</a></h4>
+                            <h4 class="text-primary mb-0"><a href="tel:+381116906807" title="Fiksni advokatske kancelarije u Beogradu" class="mb-0 text-primary">+381116906807</a></h4>
                         </div>
                     </div>
                 </div>
@@ -109,7 +132,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">{{__("index.broj telefona")}} (RS)</h5>
-                            <h4 class="text-primary mb-0"><a href="tel:+38765325077" class="mb-0 text-primary">+38765325077</a>
+                            <h4 class="text-primary mb-0"><a href="tel:+38765325077" title="Telefon advokatske kancelarije  u Banja Luci" class="mb-0 text-primary">+38765325077</a>
                             </h4>
                         </div>
                     </div>
@@ -125,7 +148,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">{{__("index.email adresa")}} (SR)</h5>
-                            <h4 class="text-primary mb-0"><a href="mailto:advgotovac@gmail.com"
+                            <h4 class="text-primary mb-0"><a href="mailto:advgotovac@gmail.com" title="E-mail adresa advokatske kancelarije u Beogradu"
                                                              class="mb-0 text-primary">advgotovac@gmail.com</a></h4>
                         </div>
                     </div>
@@ -139,7 +162,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">{{__("index.email adresa")}} (RS)</h5>
-                            <h4 class="text-primary mb-0"><a href="mailto:jovangotovac@gmail.com"
+                            <h4 class="text-primary mb-0"><a href="mailto:jovangotovac@gmail.com" title="E-mail adresa advokatske kancelarije u Banja Luci"
                                                              class="mb-0 text-primary">jovangotovac@gmail.com</a></h4>
                         </div>
                     </div>

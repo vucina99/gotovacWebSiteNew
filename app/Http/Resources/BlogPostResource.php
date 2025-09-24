@@ -22,6 +22,9 @@ class BlogPostResource extends JsonResource
             "content" =>  app()->getLocale() == "sr" ? $this->content_sr : $this->content_en,
             "category" => app()->getLocale() == "sr" && $this->blogCategory ? $this->blogCategory->name : $this->blogCategory->name_en,
             "image" => new BlogImageResource($this->blogImage),
+            "metaDescription" => $this->meta_description,
+            "metaKeywords" => $this->meta_keywords,
+            "metaTitle" => $this->meta_title,
 
         ];
     }

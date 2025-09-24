@@ -21,7 +21,7 @@ export default {
                 <th class="wrap  bg-primary text-white p-2 thminwidth align-middle">
                     ODBRANA, ZASTUPANJE PRIVATNOG TUŽIOCA I OŠTEĆENOG KAO TUŽIOCA, <span v-show="header1"> ,RAZGOVOR SA
                         OKRIVLJENIM U PRITVORU ILI ZATVORU, ZASTUPANJE MALOLETNOG OŠTEĆENOG <br>
-                    (sa 1 započetim satom) Tar. br. 1 </span> <a href="javascript:void(0)" class="border-bottom"
+                    (sa 1 započetim satom) Tar. br. 1 </span> <a href="javascript:void(0)" class="border-bottom" title="Pročitaj ceo tekst"
                                                                  @click="header1 = !header1">  <br> <span v-show="!header1"> Pročitaj celo zaglavlje <i
                     class="bi bi-arrow-down"></i>  </span> <span v-show="header1"> Smanji zaglavlje <i
                     class="bi bi-arrow-up"></i>  </span> </a>
@@ -34,7 +34,7 @@ export default {
                     <strong>ŽALBA okrivljenog, privatnog tužioca i ošt. kao tužioca protiv presude, rešenja
                         kojim se izriče mera bezbednosti <span v-show="header3"> ili vaspitna mera i oduzimanje  imovinske koristi,
                             PONAVLJANJE KRIVIČNOG POSTUPKA, ZAŠTITA ZAKONITOSTI, USTAVNE ŽALBE </span> <a
-                            href="javascript:void(0)" class="border-bottom"
+                            href="javascript:void(0)" class="border-bottom" title="Pročitaj ceo tekst"
                             @click="header3 = !header3">  <br> <span v-show="!header3"> Pročitaj celo zaglavlje <i
                             class="bi bi-arrow-down"></i>  </span> <span v-show="header3"> Smanji zaglavlje <i
                             class="bi bi-arrow-up"></i>  </span> </a> </strong>
@@ -48,7 +48,7 @@ export default {
                     rehabilitaciju, zahteva za naknadu troškova  ŽALBA PROTIV REŠENJA : o
                     zadržavanju, određivanju ili produženju pritvora, o produženju zabrane napuštanja mesta
                     boravka, ODGOVOR NA ŽALBU , žalba oštećenog, molbe za pomilovanje, odgovor
-                    na zahtev za ponavljanje kriv. postupka </span> <a href="javascript:void(0)" class="border-bottom"
+                    na zahtev za ponavljanje kriv. postupka </span> <a href="javascript:void(0)" title="Pročitaj ceo tekst" class="border-bottom"
                                                                        @click="header2 = !header2"> <br> <span
                     v-show="!header2"> Pročitaj celo zaglavlje <i
                     class="bi bi-arrow-down"></i>  </span> <span v-show="header2"> Smanji zaglavlje <i

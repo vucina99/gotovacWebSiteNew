@@ -16,6 +16,7 @@ Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/online-konsultacije', [IndexController::class, 'consultation'])->name('home');
 Route::get('/promeni-jezik/{lang}', [IndexController::class, 'changeLanguage']);
 Route::get('/kalkulator-trudnicke-naknade', [IndexController::class, 'allowanceCalculator']);
+Route::get('/galerija', [IndexController::class, 'gallery']);
 
 
 
@@ -35,5 +36,5 @@ Route::group(['prefix' => "/blog"] , function(){
     Route::get('/get/comments/{blog}', [BlogController::class, "getBlogComment"] );
     Route::get('/get/category-blogs/{categoryId}/{blogId}', [BlogController::class, "getCategoryBlogs"] );
 
-
+    Route::get('/recent/posts', [BlogController::class, "getLastThreePosts"] );
 });

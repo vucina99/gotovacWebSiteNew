@@ -189,4 +189,12 @@ class BlogController extends Controller
 
         return $this->success(204, []);
     }
+
+    public function getLastThreePosts()
+    {
+        $blogsData = Blog::with("blogCategory")->activeBlog()->orderByDesc("date" , "desc")->take(3)->get();
+        $blogs = BlogListResource::collection($blogsData);
+        return $this->success(200, $blogs);
+    }
+
 }

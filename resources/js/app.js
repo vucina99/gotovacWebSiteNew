@@ -1,5 +1,6 @@
 // resources/js/app.js
 import { createApp } from 'vue';
+
 import ExampleComponent from "./components/ExampleComponent.vue";
 import TarifaTable from "@/components/pages/TarifaTable.vue";
 import ConsultationForm from "@/components/pages/ConsultationForm.vue";
@@ -18,82 +19,57 @@ import BlogPost from "@/components/pages/BlogPost.vue";
 import NewBlogList from "@/components/pages/NewBlogList.vue";
 import MaternityCalculator from "@/components/pages/MaternityCalculator.vue";
 
-// ⚠️ Nemoj ovde uvoziti bootstrap ili jQuery – oni idu iz CDN-a u Blade-u.
+// 1) Kreiraj app
+const app = createApp({});
 
-// Helper: detektuj da li DOM sadrži neku od tvojih Vue komponenti.
-// Ako nema – NE montiramo Vue i time ne diramo jQuery plugine (counter, carousel…)
-const VUE_TAGS = [
-    'example-component',
-    'tariff-table',
-    'consultation-form',
-    'booked-online-consultation',
-    'contact-office',
-    'blog-category',
-    'create-blog',
-    'admin-blog-list',
-    'blog-list',
-    'new-blog-list',
-    'maternity-calculator',
-    'blog-post'
-];
+// 2) Globalni registri
+app.component('example-component', ExampleComponent);
+app.component('tariff-table', TarifaTable);
+app.component('consultation-form', ConsultationForm);
+app.component('booked-online-consultation', BookedOnlineConsultation);
+app.component('contact-office', ContactOffice);
+app.component('blog-category', BlogCategory);
+app.component('create-blog', CreateBlog);
+app.component('admin-blog-list', AdminBlogList);
+app.component('blog-list', BlogList);
+app.component('new-blog-list', NewBlogList);
+app.component('maternity-calculator', MaternityCalculator);
+app.component('blog-post', BlogPost);
+app.component('VueDatePicker', VueDatePicker);
 
-// Nađi makar jedan od ovih tagova u DOM-u
-const needVue = VUE_TAGS.some((sel) => document.querySelector(sel));
+// 3) SweetAlert
+const options = { confirmButtonColor: '#004591', cancelButtonColor: '#004591' };
+app.use(VueSweetalert2, options);
 
-// Ako želiš još preciznije, opcionalno montiranje samo na #app[data-vue-root]:
-const appRoot =
-    document.querySelector('#app[data-vue-root]') || // prioritet ako postoji
-    document.getElementById('app');                  // fallback (postojeća struktura)
+// 4) Global helpers
+app.config.globalProperties.$showErrorSwal = showErrorSwal;
+app.config.globalProperties.$showErrorSwalWithText = showErrorSwalWithText;
+app.config.globalProperties.$showSuccessSwal = showSuccessSwal;
+app.config.globalProperties.$user = window.user;
 
-if (needVue && appRoot) {
-    const app = createApp({});
+// 5) Loader (radi i bez jQuery-a)
+window.loader = function (on) {
+    const el = document.getElementById('spinner');
+    if (!el) return;
+    if (typeof window.$ === 'function') {
+        on ? window.$(el).addClass('show') : window.$(el).removeClass('show');
+    } else {
+        el.classList.toggle('show', !!on);
+    }
+};
 
-    // Globalni registri
-    app.component('example-component', ExampleComponent);
-    app.component('tariff-table', TarifaTable);
-    app.component('consultation-form', ConsultationForm);
-    app.component('booked-online-consultation', BookedOnlineConsultation);
-    app.component('contact-office', ContactOffice);
-    app.component('blog-category', BlogCategory);
-    app.component('create-blog', CreateBlog);
-    app.component('admin-blog-list', AdminBlogList);
-    app.component('blog-list', BlogList);
-    app.component('new-blog-list', NewBlogList);
-    app.component('maternity-calculator', MaternityCalculator);
-    app.component('blog-post', BlogPost);
-    app.component('VueDatePicker', VueDatePicker);
+// 6) Mount na #app
+const root = document.getElementById('app');
+if (root) {
+    app.mount(root);
 
-    // SweetAlert
-    const options = {
-        confirmButtonColor: '#004591',
-        cancelButtonColor: '#004591',
-    };
-    app.use(VueSweetalert2, options);
-
-    // Global helpers
-    app.config.globalProperties.$showErrorSwal = showErrorSwal;
-    app.config.globalProperties.$showErrorSwalWithText = showErrorSwalWithText;
-    app.config.globalProperties.$showSuccessSwal = showSuccessSwal;
-    app.config.globalProperties.$user = window.user;
-
-    // Loader helper (koristi jQuery iz CDN-a)
-    window.loader = function (bool) {
-        if (bool) {
-            $('#spinner').addClass('show');
-        } else {
-            $('#spinner').removeClass('show');
-        }
-    };
-
-    // Konačno: mount
-    app.mount(appRoot);
+    // 7) POSLE mount-a: re-init UI plugina (definisano u public/js/main.js)
+    if (typeof window.templateInit === 'function') {
+        window.templateInit();
+        // mali „kick“ za slučaj lazy slika/fontova/tabova
+        setTimeout(() => window.templateInit && window.templateInit(), 50);
+        window.addEventListener('load', () => window.templateInit && window.templateInit());
+    }
 } else {
-    // Nema Vue komponenti na stranici → ne diramo DOM, sve jQuery stvari rade normalno
-    window.loader = function (bool) {
-        if (bool) {
-            $('#spinner').addClass('show');
-        } else {
-            $('#spinner').removeClass('show');
-        }
-    };
+    console.warn('[Vue] #app nije pronađen.');
 }

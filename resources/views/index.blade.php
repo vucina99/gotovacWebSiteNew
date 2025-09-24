@@ -1,34 +1,59 @@
 @extends("content")
 
+@section("seo")
+
+    <title>Advokat Beograd | Advokatska kancelarija Gotovac</title>
+    <meta name="twitter:title" content="Advokat Beograd | Advokatska kancelarija Gotovac">
+    <meta property="og:title" content="Advokat Beograd | Advokatska kancelarija Gotovac"/>
+    <link rel="canonical" href="https://advokatigotovac.com/"/>
+
+    <meta property="og:keywords"
+          content="Advokat Beograd, Gotovac i Saradnici, Advokat za saobraćajke, naplata stete, naknada štete"/>
+    <meta name="keywords"
+          content="Advokat Beograd, Gotovac i Saradnici, Advokat za saobraćajke, naplata stete, naknada štete ">
+
+
+    <meta property="og:description"
+          content="Advokatska kancelarija Gotovac iz Beograda pruža usluge iz privrednog prava, obligaciono prava i krivičnog prava. Stručan i iskusan tim za vaše pravne potrebe"/>
+    <meta name="twitter:description"
+          content="Advokatska kancelarija Gotovac iz Beograda pruža usluge iz privrednog prava, obligaciono prava i krivičnog prava. Stručan i iskusan tim za vaše pravne potrebe">
+    <meta name="description"
+          content="Advokatska kancelarija Gotovac iz Beograda pruža usluge iz privrednog prava, obligaciono prava i krivičnog prava. Stručan i iskusan tim za vaše pravne potrebe">
+
+    <meta name="robots" content="index, follow">
+
+@endsection
 
 @section("content")
     <div class="container-fluid position-relative p-0" id="home">
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/carousel-1.png" alt="Image">
+                    <img class="w-100" fetchpriority="high" loading="eager"
+                         decoding="async" src="{{asset("img/carousel-1.png")}}" alt="Advokatska kancelarija Gotovac i saradnici, Beograd – hero slika 1">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3 header-box">
                             <h5 class="text-white text-uppercase mb-3 animated slideInDown">{{__("index.Iskustvo & integritet")}}</h5>
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">{{__("index.Advokatska kancelarija Gotovac & Saradnici")}}</h1>
                             <br><br>
-                            <a href="quote.html"
+                            <a href="/#services" title="Advokatske usluge koje nudi kancelarija Gotovac"
                                class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"> {{__("index.Naše usluge")}} </a>
-                            <a href=""
+                            <a href="/#about" title="Pročitajte više o našoj kancelariji"
                                class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">  {{__("index.O nama")}} </a>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-7.png" alt="Image">
+                    <img class="w-100" src="{{asset("img/carousel-7.png")}}" loading="lazy" decoding="async"
+                         alt="Advokatska kancelarija Gotovac  Beograd Srbija – saobraćajna nezgoda ">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3 header-box">
                             <h5 class="text-white text-uppercase mb-3 animated slideInDown">{{__("index.Stručnost & Posvećenost")}}</h5>
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">{{__("index.Naša kancelarija je osnovana 1996 godine")}} </h1>
                             <br><br>
-                            <a href="quote.html"
+                            <a href="/advokatska-tarifa" title="Advokatska tarifa kancelarije"
                                class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"> {{__("index.Cenovnik")}} </a>
-                            <a href=""
+                            <a href="/kalkulator-trudnicke-naknade" title="Izračunajte trudničku naknadu"
                                class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight"> {{__("index.Kalkulator")}} </a>
                         </div>
                     </div>
@@ -103,7 +128,7 @@
                             </div>
                             <div class="ps-4">
                                 <h5 class="text-white mb-0">{{__("index.Godina postojanja")}}</h5>
-                                <h1 class="text-white mb-0" data-toggle="counter-up">28</h1>
+                                <h1 class="text-white mb-0" data-toggle="counter-up">30</h1>
                             </div>
                         </div>
                     </div>
@@ -120,7 +145,7 @@
                     <div class="col-lg-7">
                         <div class="section-title position-relative pb-3 mb-5">
                             <h5 class="fw-bold text-primary text-uppercase">{{__("index.O nama")}}</h5>
-                            <h1 class="mb-0">{{__("index.Punih 28 godina")}}</h1>
+                            <h1 class="mb-0">{{__("index.Punih 30 godina")}}</h1>
                         </div>
                         <p class="mb-4">{!! __("index.tekst o nama") !!}</p>
                         <div class="row g-0 mb-3">
@@ -141,13 +166,16 @@
                             </div>
                         </div>
 
-                        <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn"
+                        <a href="/kontakt" title="Kontaktirajte advokatsku kancelariju Gotovac & saradnici"
+                           class="btn btn-primary py-3 px-5 mt-3 wow zoomIn"
                            data-wow-delay="0.9s">{{__("index.Kontaktirajte nas")}}</a>
                     </div>
-                    <div class="col-lg-5" style="min-height: 500px;">
+                    <div class="col-lg-5 p-sm-2" style="min-height: 500px;">
                         <div class="position-relative h-100">
-                            <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s"
-                                 src="img/about.jpg" style="object-fit: cover;">
+                            <img loading="lazy" decoding="async"
+                                 class="position-absolute w-100 h-100  rounded wow zoomIn" data-wow-delay="0.9s"
+                                 src="{{asset('img/about.jpg')}}" alt="Fotografija Vladan Gotovac"
+                                 title="Fotografija glavnog advokata Vladana Gotovaca" style="object-fit: cover;">
                         </div>
                     </div>
                 </div>
@@ -157,11 +185,16 @@
 
         <div class="cenovnik my-4">
             <div class="w-100 d-flex justify-content-center">
-                <a href="" class="wow rollIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                <a href="/advokatska-tarifa" class="wow rollIn" title="Advokatska tarifa kancelarije Gotovac"
+                   data-wow-duration="1s" data-wow-delay="0.3s">
                     @if(app()->getLocale() === 'sr')
-                        <img src="{{asset("img/cenovnik-rs.png")}}">
+                        <img src="{{asset("img/cenovnik-rs.png")}}" loading="lazy" decoding="async"
+                             alt="Staromodni pečat cenovnik"
+                             title="Staromodni pečat cenovnik">
                     @else
-                        <img src="{{asset("img/cenovnik-en.png")}}">
+                        <img src="{{asset("img/cenovnik-en.png")}}" loading="lazy" decoding="async"
+                             alt="Staromodni pečat cenovnik"
+                             title="Staromodni pečat cenovnik">
                     @endif
 
 
@@ -185,31 +218,36 @@
                         <div
                             class="service-item bg-light rounded d-flex flex-column align-items-center   text-center">
                             <div class="service-icon mt-5 bg-light">
-                                <img src="{{asset("/img/advokatske-usluge/car.png")}}" class="img-fluid w-100" alt="img-fluid">
+                                <img src="{{asset("/img/advokatske-usluge/car.png")}}" loading="lazy" decoding="async"
+                                     class="img-fluid w-100"
+                                     alt="Ikonica za saobraćajne nezgode">
                             </div>
                             <h4 class="mb-3">{{__("index.advokat za saobracaj")}}</h4>
                             <p class="m-0">
                                 {!! __("index.saobracajke usluge") !!}
                             </p>
-                            <a class="btn btn-lg btn-primary rounded" href="">
+                            <a class="btn btn-lg btn-primary rounded" href="javascript:void(0)"
+                               title="Pročitaj više o saobraćajnim nezgodama">
                                 <i class="bi bi-arrow-up"></i>
                             </a>
                         </div>
                     </div>
 
 
-
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
                         <div
                             class="service-item bg-light rounded d-flex flex-column align-items-center   text-center">
                             <div class="service-icon mt-5 bg-light">
-                                <img src="{{asset("/img/advokatske-usluge/privredno.png")}}" class="img-fluid w-100" alt="img-fluid">
+                                <img src="{{asset("/img/advokatske-usluge/privredno.png")}}" loading="lazy"
+                                     decoding="async" class="img-fluid w-100"
+                                     alt="Ikonica za privredno pravo">
                             </div>
                             <h4 class="mb-3">{{__("index.privredno pravo")}}</h4>
                             <p class="m-0">
                                 {!! __("index.privredno usluge") !!}
                             </p>
-                            <a class="btn btn-lg btn-primary rounded" href="">
+                            <a class="btn btn-lg btn-primary rounded" href="javascript:void(0)"
+                               title="Pročitaj više o privrednom pravu">
                                 <i class="bi bi-arrow-up"></i>
                             </a>
                         </div>
@@ -218,13 +256,16 @@
                         <div
                             class="service-item bg-light rounded d-flex flex-column align-items-center   text-center">
                             <div class="service-icon mt-5 bg-light">
-                                <img src="{{asset("/img/advokatske-usluge/obligaciono.png")}}" class="img-fluid w-100" alt="img-fluid">
+                                <img src="{{asset("/img/advokatske-usluge/obligaciono.png")}}" loading="lazy"
+                                     decoding="async" class="img-fluid w-100"
+                                     alt="Ikonica za obligaciono pravo">
                             </div>
                             <h4 class="mb-3">{{__("index.obligaciono pravo")}}</h4>
                             <p class="m-0">
                                 {!! __("index.obligaciono usluge") !!}
                             </p>
-                            <a class="btn btn-lg btn-primary rounded" href="">
+                            <a class="btn btn-lg btn-primary rounded" href="javascript:void(0)"
+                               title="Pročitaj više o obligacionom pravu">
                                 <i class="bi bi-arrow-up"></i>
                             </a>
                         </div>
@@ -233,14 +274,17 @@
                         <div
                             class="service-item bg-light rounded d-flex flex-column align-items-center   text-center">
                             <div class="service-icon mt-5 bg-light">
-                                <img src="{{asset("/img/advokatske-usluge/krivicno.png")}}" class="img-fluid w-100" alt="img-fluid">
+                                <img src="{{asset("/img/advokatske-usluge/krivicno.png")}}" loading="lazy"
+                                     decoding="async" class="img-fluid w-100"
+                                     alt="Ikonica za krivično pravo">
                             </div>
                             <h4 class="mb-3">{{__("index.krivicno pravo")}}</h4>
                             <p class="m-0">
                                 {!! __("index.krivicno usluge") !!}
 
                             </p>
-                            <a class="btn btn-lg btn-primary rounded" href="">
+                            <a class="btn btn-lg btn-primary rounded" href="javascript:void(0)"
+                               title="Pročitaj više o krivičnom pravu">
                                 <i class="bi bi-arrow-right"></i>
                             </a>
                         </div>
@@ -249,11 +293,14 @@
                         <div
                             class="service-item bg-light rounded d-flex flex-column align-items-center   text-center">
                             <div class="service-icon mt-5 bg-light">
-                                <img src="{{asset("/img/advokatske-usluge/osiguranje.png")}}" class="img-fluid w-100" alt="img-fluid">
+                                <img src="{{asset("/img/advokatske-usluge/osiguranje.png")}}" loading="lazy"
+                                     decoding="async" class="img-fluid w-100"
+                                     alt="Ikonica za pravo osiguranja">
                             </div>
                             <h4 class="mb-3">{{__("index.osiguranje pravo")}}</h4>
                             <p class="m-0">     {!! __("index.osiguranje usluge") !!} </p>
-                            <a class="btn btn-lg btn-primary rounded" href="">
+                            <a class="btn btn-lg btn-primary rounded" href="javascript:void(0)"
+                               title="Pročitaj više o pravu osiguranja">
                                 <i class="bi bi-arrow-right"></i>
                             </a>
                         </div>
@@ -264,7 +311,9 @@
                             <br>
                             <h3 class="text-white mb-4 ">{{__("index.kontaktirajte nas")}}</h3>
                             <p class="text-white mb-3 fst-italic   pb-4">{{__("index.respolaganje")}}</p>
-                            <a href="/kontakt"><button class="btn btn-outline-light py-3 px-5">{{__("index.kontakt")}}</button></a>
+                            <a href="/kontakt" title="Kontaktirajte advokatsku kancelariju">
+                                <button class="btn btn-outline-light py-3 px-5">{{__("index.kontakt")}}</button>
+                            </a>
                             <br><br>
                         </div>
                     </div>
@@ -275,7 +324,7 @@
 
 
         <!-- Pricing Plan Start -->
-        <div class="container-fluid py-5  wow fadeInUp" data-wow-delay="0.1s" id="questions">
+        <div class="container-fluid py-5  wow fadeInUp" data-wow-delay="0.1s" id="question">
             <div class="container py-5">
                 <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                     <h5 class="fw-bold text-primary text-uppercase">{{__("index.najcesca pitanja")}}</h5>
@@ -415,7 +464,7 @@
 
 
         <!-- Quote Start -->
-        <div class="container-fluid mt-5 wow fadeInUp" data-wow-delay="0.1s" >
+        <div class="container-fluid mt-5 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container ">
                 <div class="row g-5">
                     <div class="col-lg-7">
@@ -425,10 +474,12 @@
                         </div>
                         <div class="row gx-3">
                             <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                                <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>{{__("index.odgovor")}}</h5>
+                                <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>{{__("index.odgovor")}}
+                                </h5>
                             </div>
                             <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                                <h5 class="mb-4"><i class="fa fa-phone-alt text-primary me-3"></i> {{__("index.dostupnost")}}</h5>
+                                <h5 class="mb-4"><i
+                                        class="fa fa-phone-alt text-primary me-3"></i> {{__("index.dostupnost")}}</h5>
                             </div>
                         </div>
                         <p class="mb-1">{{__("index.brzi text")}}</p>
@@ -441,7 +492,9 @@
                                 </div>
                                 <div class="ps-4">
                                     <h5 class="mb-2">{{__("index.broj telefona")}} (SR)</h5>
-                                    <h4 class="text-primary mb-0"><a href="tel:+381116906807" class="mb-0 text-primary">+381116906807</a></h4>
+                                    <h4 class="text-primary mb-0"><a href="tel:+381116906807"
+                                                                     title="Broj advokatske kancelarije u Beogradu"
+                                                                     class="mb-0 text-primary">+381116906807</a></h4>
                                 </div>
                             </div>
 
@@ -452,7 +505,9 @@
                                 </div>
                                 <div class="ps-4">
                                     <h5 class="mb-2">{{__("index.broj telefona")}} (RS)</h5>
-                                    <h4 class="text-primary mb-0"><a href="tel:+38765325077" class="mb-0 text-primary">+38765325077</a> </h4>
+                                    <h4 class="text-primary mb-0"><a href="tel:+38765325077"
+                                                                     title="Broj advokatske kancelarije u Banja Luci"
+                                                                     class="mb-0 text-primary">+38765325077</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -463,7 +518,7 @@
                              data-wow-delay="0.9s">
                             <br>
 
-                            <form method="post" class="py-3" action="/contact" >
+                            <form method="post" class="py-3" action="/contact">
                                 @if(session('success'))
                                     <div class="alert alert-success">
                                         {{ session('success') }}
@@ -472,7 +527,9 @@
                                 @csrf
                                 <div class="row g-3 pt-3 pb-4">
                                     <div class="col-12">
-                                        <input type="text" name="name"  id="name"   class="form-control border-0 bg-white  @error('name') border-1 is-invalid @enderror" placeholder="{{__("index.vase ime")}}"
+                                        <input type="text" name="name" id="name"
+                                               class="form-control border-0 bg-white  @error('name') border-1 is-invalid @enderror"
+                                               placeholder="{{__("index.vase ime")}}"
                                                style="height: 55px;">
 
                                         @error('name')
@@ -482,7 +539,9 @@
                                         @enderror
                                     </div>
                                     <div class="col-12">
-                                        <input type="text"  name="email"   id="email"  class="form-control border-0 bg-white   @error('email') border-1 is-invalid @enderror"  placeholder="{{__("index.vas email")}}"
+                                        <input type="text" name="email" id="email"
+                                               class="form-control border-0 bg-white   @error('email') border-1 is-invalid @enderror"
+                                               placeholder="{{__("index.vas email")}}"
                                                style="height: 55px;">
                                         @error('email')
                                         <span class="invalid-feedback" role="alert">
@@ -491,7 +550,9 @@
                                         @enderror
                                     </div>
                                     <div class="col-12">
-                                        <input type="text"  name="subject" id="subject" class="form-control border-0 bg-white @error('subject') border-1 is-invalid @enderror" placeholder="{{__("index.vas subject")}}"
+                                        <input type="text" name="subject" id="subject"
+                                               class="form-control border-0 bg-white @error('subject') border-1 is-invalid @enderror"
+                                               placeholder="{{__("index.vas subject")}}"
                                                style="height: 55px;">
                                         @error('subject')
                                         <span class="invalid-feedback" role="alert">
@@ -500,8 +561,10 @@
                                         @enderror
                                     </div>
                                     <div class="col-12">
-                                <textarea class="form-control border-0 bg-white  @error('subject') border-1  is-invalid @enderror" rows="4"
-                                          placeholder="{{__("index.vasa poruka")}}"  id="message"  name="message" ></textarea>
+                                <textarea
+                                    class="form-control border-0 bg-white  @error('subject') border-1  is-invalid @enderror"
+                                    rows="4"
+                                    placeholder="{{__("index.vasa poruka")}}" id="message" name="message"></textarea>
                                         @error('message')
                                         <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -509,12 +572,12 @@
                                         @enderror
                                     </div>
                                     <div class="col-12 pb-5">
-                                        <button class="btn bg-light-blue text-white w-100 py-3" type="submit">{{__("index.posalji poruku")}}</button>
+                                        <button class="btn bg-light-blue text-white w-100 py-3"
+                                                type="submit">{{__("index.posalji poruku")}}</button>
                                     </div>
                                 </div>
                             </form>
                             <br><br><br>
-
 
 
                         </div>
@@ -535,14 +598,16 @@
 
                 <div class="text-center py-3 ">
                     <a href="https://www.google.com/search?q=gotovac&oq=gotovac&gs_lcrp=EgZjaHJvbWUqDAgAECMYJxiABBiKBTIMCAAQIxgnGIAEGIoFMhAIARAuGK8BGMcBGNQCGIAEMggIAhBFGCcYOzIGCAMQRRhAMgkIBBBFGDsYgAQyCggFEC4Y1AIYgAQyBggGEEUYPDIGCAcQRRg80gEINjYwOGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x475a656f9b3fbb9d:0x6f323017b4f9faca,1,,,,"
-                       target="_blank" class=" border-bottom border-primary fw-bold">
+                       target="_blank" class=" border-bottom border-primary fw-bold" title="Naše Google recenzije">
                         80 Google {{__("index.Recenzije")}} ( 4.9 <i class="fa fa-star"></i> )
                     </a>
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
                     <div class="testimonial-item bg-light my-4">
                         <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                            <img class="img-fluid rounded" src="{{asset('img/user.png')}}">
+                            <img class="img-fluid rounded" src="{{asset('img/user.png')}}" loading="lazy"
+                                 decoding="async"
+                                 alt="Ikonica Google korisnika 1">
                             <div class="ps-4">
                                 <h4 class="text-primary mb-1"> Hank Voight</h4>
                                 <small class="text-uppercase">03.05.2025</small>
@@ -556,7 +621,9 @@
                     </div>
                     <div class="testimonial-item bg-light my-4">
                         <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                            <img class="img-fluid rounded" src="{{asset('img/user.png')}}">
+                            <img class="img-fluid rounded" src="{{asset('img/user.png')}}" loading="lazy"
+                                 decoding="async"
+                                 alt="Ikonica Google korisnika 2">
                             <div class="ps-4">
                                 <h4 class="text-primary mb-1">Olivera Janković</h4>
                                 <small class="text-uppercase">10.03.2025</small>
@@ -570,7 +637,9 @@
                     </div>
                     <div class="testimonial-item bg-light my-4">
                         <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                            <img class="img-fluid rounded" src="{{asset('img/user.png')}}">
+                            <img class="img-fluid rounded" src="{{asset('img/user.png')}}" loading="lazy"
+                                 decoding="async"
+                                 alt="Ikonica Google korisnika 3 ">
                             <div class="ps-4">
                                 <h4 class="text-primary mb-1">Ana Ilić</h4>
                                 <small class="text-uppercase">11.15.2024</small>
@@ -584,7 +653,9 @@
                     </div>
                     <div class="testimonial-item bg-light my-4">
                         <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                            <img class="img-fluid rounded" src="{{asset('img/user.png')}}">
+                            <img class="img-fluid rounded" src="{{asset('img/user.png')}}" loading="lazy"
+                                 decoding="async"
+                                 alt="Ikonica Google korisnika 4 ">
                             <div class="ps-4">
                                 <h4 class="text-primary mb-1"> Jovan Obradovic</h4>
                                 <small class="text-uppercase"> 15.08.2017 </small>
@@ -611,15 +682,19 @@
                 <div class="row g-5">
                     <div class="col-lg-12   wow slideInUp" data-wow-delay="0.3s">
                         <h4 class="d-flex align-items-center justify-content-center drzava color-primary">
-                            <img src="{{asset("img/stub-beli-small.png")}}" alt=""  class="h-100"> {{__("index.srbija")}} <img src="{{asset("img/stub-beli-small.png")}}" alt=""  class="h-100">
+                            <img src="{{asset("img/stub-beli-small.png")}}" alt="Levi stub - Srbija" loading="lazy"
+                                 decoding="async"
+                                 class="h-100"> {{__("index.srbija")}} <img src="{{asset("img/stub-beli-small.png")}}"
+                                                                            alt="Desni stub - Srbija" class="h-100"
+                                                                            loading="lazy" decoding="async">
 
                         </h4><br>
                         <div class="d-flex  flex-wrap justify-content-center">
-                        <div class="zaposleni blue-papir text-center py-5 me-3 mb-3 fw-bold">
-                            <span class="text-dark">Vladan Gotovac</span>
-                            <br>
-                            {{__('index.advokat')}}
-                        </div>
+                            <div class="zaposleni blue-papir text-center py-5 me-3 mb-3 fw-bold">
+                                <span class="text-dark">Vladan Gotovac</span>
+                                <br>
+                                {{__('index.advokat')}}
+                            </div>
                             <div class="zaposleni blue-papir text-center py-5 me-3 mb-3 fw-bold">
                                 <span class="text-dark">Dragan Gotovac</span>
                                 <br>
@@ -685,12 +760,17 @@
                                 <br>
                                 {{__('index.office manager')}}
                             </div>
-                    </div>
+                        </div>
                     </div>
 
-                    <div class="col-lg-12 wow slideInUp" data-wow-delay="0.3s"> <br>
+                    <div class="col-lg-12 wow slideInUp" data-wow-delay="0.3s"><br>
                         <h4 class="d-flex align-items-center justify-content-center drzava color-primary">
-                            <img src="{{asset("img/stub-beli-small.png")}}" alt=""  class="h-100">    {{__("index.srpska")}} <img src="{{asset("img/stub-beli-small.png")}}" alt=""  class="h-100">
+                            <img src="{{asset("img/stub-beli-small.png")}}" loading="lazy" decoding="async"
+                                 alt="Levi stub - Republika Srpska"
+                                 class="h-100"> {{__("index.srpska")}} <img src="{{asset("img/stub-beli-small.png")}}"
+                                                                            alt="Desni stub - Republika Srpska"
+                                                                            class="h-100" loading="lazy"
+                                                                            decoding="async">
 
                         </h4><br>
                         <div class="d-flex  flex-wrap justify-content-center">
@@ -732,12 +812,13 @@
                     <h5 class="fw-bold text-primary text-uppercase">{{__("index.latest")}}</h5>
                     <h1 class="mb-0">{{__("index.latest podnaslov")}}</h1>
                 </div>
-                <new-blog-list  locale="{{app()->getLocale()}}" :translate="@js(__('index'))" :blogs="{{json_encode($blogs)}}"></new-blog-list>
+                <new-blog-list locale="{{app()->getLocale()}}" :translate="@js(__('index'))"
+                               :blogs="{{json_encode($blogs)}}"></new-blog-list>
             </div>
         </div>
         <!-- Blog Start -->
 
 
-        @include("sections.insurances")
+    @include("sections.insurances")
 
 @endsection

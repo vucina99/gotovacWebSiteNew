@@ -12,14 +12,14 @@ return [
     'Završenih predmeta' => 'Završenih predmeta',
     'Godina postojanja' => 'Godina postojanja',
     'Zadovoljni klijenti' => 'Zadovoljni klijenti',
-    'Punih 28 godina' => 'Punih 28 godina smo uz vas',
+    'Punih 30 godina' => 'Punih 30 godina smo uz vas',
     'tekst o nama' => '<strong>Advokatska kancelarija Gotovac</strong>, sa tradicijom dugom skoro <strong>tri decenije</strong>, pruža sveobuhvatne pravne usluge na                   teritoriji <strong>Republike Srbije</strong> i <strong>Republike Srpske (BiH)</strong>.<br><br>
 
                         Naša <i>uža specijalnost</i> obuhvata zastupanje <strong>fizičkih i pravnih lica</strong> u postupcima <strong>naknade štete</strong> proistekle iz <strong>saobraćajnih nezgoda</strong> i <strong>povreda na radu</strong>, kao i zastupanje <strong>domaćih i stranih kompanija</strong> u postupcima <strong>naplate potraživanja</strong>.<br><br>
 
                         <strong>Advokat Vladan Gotovac</strong> (<i>Republika Srbija – Beograd</i>) poseduje bogato iskustvo u vođenju <strong>sporova za naknadu štete</strong> i <strong>naplatu potraživanja velike vrednosti</strong>.<br><br>
 
-                        <strong>Advokat Jovan Gotovac</strong> (<i>Republika Srpska – BiH</i>) pruža usluge iz oblasti <strong>privrednog i građanskog prava</strong>, uključujući zastupanje u <strong>složenim sudskim postupcima visoke vrednosti</strong>, kao i <strong>odbranu u krivičnim postupcima</strong>.<br><br>
+                        Naša advokatska kancelarija u  <strong>Republici Srpskoj (BiH)</strong>  pruža usluge iz oblasti <strong>privrednog i građanskog prava</strong>, uključujući zastupanje u <strong>složenim sudskim postupcima visoke vrednosti</strong>, kao i <strong>odbranu u krivičnim postupcima</strong>.<br><br>
 
                         Naš tim je posvećen pružanju <strong>pouzdane, stručne i efikasne pravne zaštite</strong>, sa ciljem očuvanja i unapređenja <strong>interesa naših klijenata</strong>.',
     'Međunarodno zastupanje' => 'Međunarodno zastupanje',
@@ -139,5 +139,8 @@ return [
     'uputstvo' => 'Uputstvo',
     'uputstvo text' => 'Unesite iznos primanja za svaki od poslednjih 12 meseci. Ako u nekom mesecu niste imali primanja, ostavite polje prazno. Nakon unosa svih podataka, sistem će automatski izračunati vašu naknadu.',
     'iznos'=>'Iznos Vaše trudničke naknade je:',
-    'preciznije' => 'Za preciznije informacije i dodatna pitanja, obratite se našoj kancelariji'
+    'preciznije' => 'Za preciznije informacije i dodatna pitanja, obratite se našoj kancelariji',
+    'galerija' => 'Galerija',
+    'galerija podnaslov' => 'Ambijent sa našim potpisom',
+    'poslednji' => 'Nedavne objave',
 ];

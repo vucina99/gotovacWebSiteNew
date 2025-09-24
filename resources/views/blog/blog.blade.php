@@ -1,5 +1,27 @@
 @extends("content")
+@section("seo")
 
+    <title>Blog | Advokatska kancelarija Gotovac</title>
+    <meta name="twitter:title" content="Advokatska tarifa | Advokatska kancelarija Gotovac">
+    <meta property="og:title" content="Advokatska tarifa | Advokatska kancelarija Gotovac"/>
+
+
+    <meta property="og:keywords"
+          content="blog advokatska kancelarija, pravni saveti, pravne vesti, advokat Beograd, naknada štete, naplata štete saobraćajne nezgode, Gotovac i saradnici"/>
+    <meta name="keywords" content="blog advokatska kancelarija, pravni saveti, pravne vesti, advokat Beograd, naknada štete, naplata štete saobraćajne nezgode, Gotovac i saradnici">
+
+    <link rel="canonical" href="https://advokatigotovac.com/blog"/>
+
+    <meta property="og:description"
+          content="Blog advokatske kancelarije Gotovac iz Beograda. Najnoviji pravni saveti, vesti i korisne informacije iz sveta prava. Naknada i naplata štete u saobraćajnim nezgodama"/>
+    <meta name="twitter:description"
+          content="Blog advokatske kancelarije Gotovac iz Beograda. Najnoviji pravni saveti, vesti i korisne informacije iz sveta prava. Naknada i naplata štete u saobraćajnim nezgodama">
+    <meta name="description"
+          content="Blog advokatske kancelarije Gotovac iz Beograda. Najnoviji pravni saveti, vesti i korisne informacije iz sveta prava. Naknada i naplata štete u saobraćajnim nezgodama">
+
+    <meta name="robots" content="index, follow">
+
+@endsection
 
 @section("content")
     <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
@@ -8,9 +30,9 @@
                 <div class="text-center d-flex align-items-center h-100">
                     <div>
                         <h1 class="display-4 text-white animated zoomIn">{{__("index.blog")}}</h1>
-                        <a href="/" class="h5 text-white">{{__("index.pocetna")}}</a>
+                        <a href="/" class="h5 text-white" title="Početna strana">{{__("index.pocetna")}}</a>
                         <i class="far fa-circle text-white px-2"></i>
-                        <a href="/kontakt" class="h5 text-white">{{__("index.blog")}}</a>
+                        <a href="/blog" class="h5 text-white" title="Blog objave advokatske kancelarije Gotovac">{{__("index.blog")}}</a>
                     </div>
                 </div>
             </div>

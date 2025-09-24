@@ -86,7 +86,6 @@ export default {
             <div class="row">
                 <div class="col-lg-10  col-sm-12 pt-3 mx-auto">
 
-                        <h3>SVE BLOG OBJAVE </h3>
                         <div class="w-100 d-flex justify-content-center">
                             <div class="blue-border"></div>
                         </div>
