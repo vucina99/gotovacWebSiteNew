@@ -256,14 +256,23 @@ h6,
     height: 3px;
 }
 
-
+.saobracajke::before {
+    left: 25px;
+}
 
 /*** Service ***/
 .service-item {
     position: relative;
-    min-height: 65vh;
+    min-height: 45vh;
     padding: 0 10px 0 10px;
     transition: .5s;
+}
+.manji-item{
+    min-height: 33vh;
+}
+.privredno-item{
+    min-height: 45vh;
+
 }
 .service-item h4{
     font-size: 26px;
@@ -274,8 +283,8 @@ h6,
 }
 .service-item .service-icon {
     margin-bottom: 30px;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -302,7 +311,16 @@ h6,
     opacity: 1;
 }
 
-
+.manji-item .service-icon{
+    width:55px;
+    height: 55px;
+}
+.manji-item li{
+   font-size: 13px;
+}
+.manji-item h4{
+    font-size: 21px;
+}
 /*** Testimonial ***/
 .testimonial-carousel .owl-dots {
     margin-top: 15px;
@@ -482,5 +500,16 @@ h6,
     object-fit: cover;
 }
 .lastBlogs-div a{
+    font-size: 14px !important;
+}
+.header-box h4{
+    font-size: 26px ;
+    font-weight: 400 !important;
+}
+.header-box h1{
+    font-weight: 800 !important;
+
+}
+.section-title span{
     font-size: 14px !important;
 }

@@ -13,15 +13,15 @@ return [
     'Godina postojanja' => 'Years in Practice',
     'Zadovoljni klijenti' => 'Satisfied Clients',
     'Punih 30 godina' => 'For a full 30 years, we have been with you.',
-    'tekst o nama' => '<strong>Law Office Gotovac</strong>, with a tradition spanning nearly <strong>three decades</strong>, provides comprehensive legal Services across the <strong>Republic of Serbia</strong> and the <strong>Republic of Srpska (BiH)</strong>.<br><br>
+    'tekst o nama' => '<strong>Gotovac Law Office</strong>, with a tradition spanning nearly <strong>three decades</strong>, provides comprehensive and highly professional legal services across the <strong>Republic of Serbia</strong> and the <strong>Republic of Srpska (BiH)</strong>.<br><br>
 
-Our <i>core specialization</i> includes representing <strong>individuals and legal entities</strong> in <strong>compensation claims</strong> arising from <strong>traffic accidents</strong> and <strong>workplace injuries</strong>, as well as representing <strong>domestic and international companies</strong> in <strong>debt collection proceedings</strong>.<br><br>
+Our <i>core expertise</i> includes representing both <strong>individuals and legal entities</strong> in <strong>compensation claims</strong> arising from <strong>traffic accidents</strong> and <strong>workplace injuries</strong>, as well as representing <strong>domestic and international companies</strong> in <strong>debt collection</strong> proceedings and the resolution of complex commercial disputes.<br><br>
 
-<strong>Attorney Vladan Gotovac</strong> (<i>Republic of Serbia – Belgrade</i>) has extensive experience in handling <strong>compensation disputes</strong> and <strong>high-value debt recovery cases</strong>.<br><br>
+<strong>Attorney Vladan Gotovac</strong> (<i>Republic of Serbia – Belgrade</i>) has extensive experience in handling <strong>compensation claims</strong> and <strong>high-value debt collection cases</strong>, ensuring our clients legal security and the effective protection of their rights.<br><br>
 
-Our law firm in <strong>Republika Srpska (BiH)</strong> provides services in <strong>commercial and civil law</strong>, including representation in <strong>complex, high-value litigation</strong>, as well as <strong>criminal defense</strong>.<br><br>
+Our team is dedicated to providing <strong>reliable, professional, and efficient legal solutions</strong>, with the goal of protecting and advancing the <strong>interests of our clients</strong>. Through a personalized approach, legal certainty, and continuous commitment, we strive to build long-term trust and be the first choice in the most important personal and business matters.<br><br>
 
-Our team is committed to providing <strong>reliable, professional, and efficient legal protection</strong>, with the goal of safeguarding and advancing <strong>our clients’ interests</strong>.',
+👉 <strong>Contact us with confidence – your rights are our responsibility.</strong>.',
     'Međunarodno zastupanje' => 'International Representation',
     '24/7 podrška' => '24/7 Support',
     'Online konsultacije' => 'Online Consultations',
@@ -52,6 +52,8 @@ Our team is committed to providing <strong>reliable, professional, and efficient
     'pocetna' => 'Home',
     'kontakt podnaslov' => 'Feel free to contact us.',
     'broj telefona' => 'Contact Number',
+    'telefon' => 'Phone number',
+    'mobilni' => 'Mobile number',
     'email adresa' => 'E-mail adress',
     'lokacija kancelarije' => 'Office Adress',
     'vase ime' => 'Your name',
@@ -96,16 +98,14 @@ Our team is committed to providing <strong>reliable, professional, and efficient
    <li>Advisory and Representation in Disputes Between Insurance Companies and Policyholders</li>
     <li>Representation in Compensation Claims for Insured Events</li>
 </ul>',
-    'saobracajke usluge' => '<ul class="Services-list w-100">
-  <li>European accident reports</li>
-    <li>Casco (comprehensive) insurance claims</li>
-    <li>Accidents involving pedestrians</li>
-    <li>Vehicle damage claims</li>
-    <li>Public transport accident claims</li>
-    <li>Bodily injuries</li>
-    <li>Fatal accident cases</li>
-</ul>',
-
+    'evropski izvestaji' => 'European accident reports',
+    'kasko stete' => 'Casco (comprehensive) insurance claims',
+    'nezgode sa pesacima' => 'Accidents involving pedestrians',
+    'stete na vozilima' => 'Vehicle damage claims',
+    'stete u javnom prevozu' => 'Public transport accident claims',
+    'telesne povrede' => 'Bodily injuries',
+    'smrtni slucajevi' => 'Fatal accident cases',
+    'na kamionima' => 'Accidents and damages involved in trucks',
     'uspesno slanje poruke' => "You have successfully sent a message to the Gotovac law office.",
     'savetovanje' => "Legal counseling",
     'savetovanje podnaslov' => "Need advice? Feel free to contact us.",
@@ -143,4 +143,15 @@ Our team is committed to providing <strong>reliable, professional, and efficient
     'galerija' => 'Gallery',
     'galerija podnaslov' => 'Ambience with our signature touch',
     'poslednji' => 'Recent post',
+    'republika srbija' => "Republic of Serbia",
+    'republika srpska' => "Republic of Srpska",
+    'povezane teme' => "Related topics",
+    'radno vreme' => "Monday-Friday: 10:00 – 17:00",
+    'radno vreme kratko' => "Mon-Fri: 10:00 – 17:00",
+    'prvi slajd' => "Roman law (principle of impartiality, Corpus iuris civilis)",
+    'drugi slajd' => "Roman law (Digest)",
+    'treci slajd' => "Roman jurists (rule of legal interpretation)",
+    'cetvrti slajd' => "Principle of criminal law (Beccaria)",
+    'peti slajd' => "Roman law (general legal maxim)",
+    'sesti slajd' => "Cicero (principle of hearing the other side)",
 ];

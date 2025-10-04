@@ -79,8 +79,7 @@
                     <div class="d-inline-flex align-items-center" style="height: 45px;">
                         <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Španskih boraca 24v,
                             Beograd</small>
-                        <small class="text-light"><a href="mailto:advgotovac@gmail.com"  title="E-mail adresa advokatske kancelarije Gotovac" class="text-light"><i
-                                    class="fa fa-envelope-open me-2"></i>advgotovac@gmail.com</a></small>
+                        <small class="text-light"> <i class="bi bi-clock-fill me-2"></i>{{__("index.radno vreme kratko")}}</small>
                     </div>
                 </div>
                 <div class="col-lg-4 text-center text-lg-end ">
@@ -130,8 +129,62 @@
                                        title="{{__("index.pocetna")}}">{{__("index.pocetna")}}</a>
                                     <a href="/#about" class="nav-item nav-link"
                                        title="{{__("index.O nama")}}">{{__("index.O nama")}}</a>
-                                    <a href="/#services" class="nav-item nav-link"
-                                       title="{{__("index.usluge")}}">{{__("index.usluge")}}</a>
+                                    <a href="/#services" class="nav-item nav-link pb-0"
+                                       title="{{__("index.usluge")}}">{{__("index.usluge")}} <i class="bi bi-chevron-down"></i></a>
+                                        <div class="ms-4 pb-2 podmenu">
+                                            <a href="/#services"
+                                               class="text-decoration-none"
+                                               title="Advokat za saobraćaj — usluge i pravna pomoć">
+                                                {{__("index.advokat za saobracaj")}}  <i class="bi bi-chevron-down"></i>
+                                            </a> <br>
+                                            <div class="ms-2  podmenu ">
+                                                <a href="/evropski-izvestaj"  title="Evropski izveštaji o saobraćajnim nezgodama">
+                                                     {{ __("index.evropski izvestaji") }}
+                                                </a> <br>
+                                                <a href="/nezgode-sa-pesacima"  title="Pravna pomoć kod nezgoda sa pešacima">
+                                                     {{ __("index.nezgode sa pesacima") }}
+                                                </a><br>
+                                                <a href="/stete-javni-prevoz"  title="Naknada štete u javnom prevozu">
+                                                     {{ __("index.stete u javnom prevozu") }}
+                                                </a><br>
+                                                <a href="/smrtni-slucajevi"  title="Pravna zaštita u slučaju smrtnog slučaja">
+                                                     {{ __("index.smrtni slucajevi") }}
+                                                </a><br>
+                                                <a href="/kasko-stete"  title="Kasko osiguranje i naplata štete">
+                                                     {{ __("index.kasko stete") }}
+                                                </a><br>
+                                                <a href="/stete-na-vozilima"  title="Naknada za štete na vozilima">
+                                                     {{ __("index.stete na vozilima") }}
+                                                </a><br>
+                                                <a href="/stete-na-kamionima"  title="Pravna pomoć za štete na kamionima i teretnim vozilima">
+                                                     {{ __("index.na kamionima") }}
+                                                </a><br>
+                                                <a href="/telesne-povrede"  title="Naknada za telesne povrede u saobraćajnim nezgodama">
+                                                     {{ __("index.telesne povrede") }}
+                                                </a><br>
+                                            </div>
+
+                                            <a href="/#services"
+                                               class="text-decoration-none"
+                                               title="Privredno pravo — usluge i zastupanje">
+                                                {{ __("index.privredno pravo") }}
+                                            </a><br>
+                                            <a href="/#services"
+                                               class="text-decoration-none"
+                                               title="Obligaciono pravo — ugovori i naknade štete">
+                                                {{ __("index.obligaciono pravo") }}
+                                            </a><br>
+                                            <a href="/#services"
+                                               class="text-decoration-none"
+                                               title="Krivično pravo — odbrana i zastupanje">
+                                                {{ __("index.krivicno pravo") }}
+                                            </a><br>
+                                            <a href="/#services"
+                                               class=" text-decoration-none"
+                                               title="Pravo osiguranja — polise i naplata štete">
+                                                {{ __("index.osiguranje pravo") }}
+                                            </a>
+                                        </div>
                                     <a href="/#question" class="nav-item nav-link"
                                        title="{{__("index.najcesca pitanja")}}">{{__("index.najcesca pitanja")}}</a>
                                     <a href="/#review" class="nav-item nav-link"
@@ -226,12 +279,12 @@
                 <div class="row gx-5">
                     <div class="col-lg-4 col-md-12 pt-5 mb-5 drzavaInfo">
                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                            <h3 class="text-light mb-0 d-flex align-items-center">{{__("index.kontakt")}} <span
-                                    class="place"> &nbsp; (SR)</span></h3>
+                            <h3 class="text-light mb-0 align-items-center">{{__("index.kontakt")}} <span
+                                    class="place d-block mt-1 fw-normal">  {{__("index.republika srbija")}} </span></h3>
                         </div>
                         <div class="d-flex mb-2">
                             <i class="bi bi-geo-alt text-primary me-2"></i>
-                            <p class="mb-0"> Republika Srbija - Španskih boraca 24v Beograd</p>
+                            <p class="mb-0"> Španskih boraca 24v Beograd</p>
                         </div>
                         <div class="d-flex mb-3">
                             <i class="bi bi-envelope-open text-primary me-2"></i>
@@ -245,16 +298,20 @@
                             <i class="bi bi-telephone text-primary me-2"></i>
                             <a href="tel:+381116906807" title="Drugi broj telefona u Republici Srbiji" class="mb-0 text-white">+381116906807</a>
                         </div>
-
+                        <div class="d-flex mb-3">
+                            <i class="bi bi-clock-fill text-primary me-2"></i>
+                            <span class="mb-0 text-white"> {{__("index.radno vreme kratko")}}</span>
+                        </div>
                     </div>
                     <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5 drzavaInfo">
                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                            <h3 class="text-light mb-0 d-flex align-items-center">{{__("index.kontakt")}} <span
-                                    class="place"> &nbsp; (RS)</span></h3>
+                            <h3 class="text-light mb-0  align-items-center">{{__("index.kontakt")}}
+                                <span
+                                    class="place  d-block mt-1 fw-normal"> {{__("index.republika srpska")}} </span></h3>
                         </div>
                         <div class="d-flex mb-2">
                             <i class="bi bi-geo-alt text-primary me-2"></i>
-                            <p class="mb-0"> Republika Srpska BIH - Svetog Save 56 Zvornik</p>
+                            <p class="mb-0">  Svetog Save 56 Zvornik</p>
                         </div>
                         <div class="d-flex mb-3">
                             <i class="bi bi-envelope-open text-primary me-2"></i>
@@ -268,10 +325,15 @@
                             <i class="bi bi-telephone text-primary me-2"></i>
                             <a href="tel:+38765325077" title="Drugi broj telefona u Republici Srpskoj" class="mb-0 text-white">+38765325077</a>
                         </div>
+                        <div class="d-flex mb-3">
+                            <i class="bi bi-clock-fill text-primary me-2"></i>
+                            <span class="mb-0 text-white"> {{__("index.radno vreme kratko")}}</span>
+                        </div>
                     </div>
                     <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5 drzavaInfo">
                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                            <h3 class="text-light mb-0"> {{__("index.korisni linkovi")}}</h3>
+                            <h3 class="text-light mb-0"> {{__("index.korisni linkovi")}}   <span
+                                    class="place  d-block mt-1 fw-normal"> {{__("index.povezane teme")}} </span></h3>
                         </div>
                         <div class="link-animated d-flex flex-column justify-content-start">
                             <a class="text-light mb-2" href="https://aks.org.rs/cir/" target="_blank" title="Advokatske komora Srbije" rel="noopener noreferrer nofollow" ><i

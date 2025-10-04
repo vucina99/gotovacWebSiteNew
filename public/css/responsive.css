@@ -25,6 +25,27 @@
     .section-title h2 {
         font-size: 30px !important;
     }
+
+    .header-box h4 {
+        font-size: 20px;
+        font-weight: 400 !important;
+    }
+
+    .izreke p {
+        font-size: 19px !important;
+    }
+
+    .izreke span {
+        font-size: 16px !important;
+
+    }
+    .izreke .fa-quote-right  {
+        display: inline-block;
+        right: -5px;
+        position: relative;
+        top: -7px;
+    }
+
 }
 
 /*za malo veće telefone*/
@@ -55,6 +76,26 @@
     .section-title h2 {
         font-size: 32px !important;
     }
+
+,
+.header-box h4 {
+    font-size: 22px !important; ;
+    font-weight: 400 !important;
+},
+.izreke p {
+    font-size: 20px !important;
+}
+    .izreke span {
+        font-size: 17px !important;
+
+    }
+    .izreke .fa-quote-right  {
+        display: inline-block;
+        right: -5px;
+        position: relative;
+        top: -7px;
+    }
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -88,6 +129,21 @@
     .section-title h2 {
         font-size: 32px !important;
     }
+
+    .izreke p {
+        font-size: 23px !important;
+    }
+    .izreke span {
+        font-size: 20px !important;
+
+    }
+    .izreke .fa-quote-right  {
+        display: inline-block;
+        right: -5px;
+        position: relative;
+        top: -7px;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -113,6 +169,15 @@
     .section-title h2 {
         font-size: 34px !important;
     }
+    .service-item {
+        min-height: 45vh;
+
+    }
+
+    .privredno-item{
+        min-height: 45vh;
+
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -129,6 +194,20 @@
 
     .section-title h2 {
         font-size: 35px !important;
+    }
+
+    .privredno-item{
+        min-height:50vh;
+
+    }
+    .service-item {
+        min-height:47vh;
+
+    }
+
+    .privredno-item{
+        min-height: 47vh;
+
     }
 }
 

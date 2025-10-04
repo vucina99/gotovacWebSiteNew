@@ -51,33 +51,23 @@
             </div>
             <br>
             <div class="row g-5 mb-5 mt-3">
-                <div class="col-lg-6 col-md-6 col-sm-12 mt-4 mb-0 ">
+                <div class="col-12">
+                    <h2>
+                        {{__("index.republika srbija")}}
+                    </h2>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 mt-3 mb-0 ">
                     <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.8s">
                         <div class="bg-primary d-flex align-items-center justify-content-center rounded"
                              style="width: 60px; height: 60px;">
                             <i class="fa fa-map-marker-alt text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="mb-2">{{__("index.lokacija kancelarije")}} (SR)</h5>
+                            <h5 class="mb-2">{{__("index.lokacija kancelarije")}} </h5>
                             <h4 class="text-primary mb-0">Španskih boraca 24v Beograd</h4>
                         </div>
                     </div>
                 </div>
-
-
-                <div class="col-lg-6 col-md-6 col-sm-12 mb-0 mt-4">
-                    <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.8s">
-                        <div class="bg-primary d-flex align-items-center justify-content-center rounded"
-                             style="width: 60px; height: 60px;">
-                            <i class="fa fa-map-marker-alt text-white"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h5 class="mb-2">{{__("index.lokacija kancelarije")}} (RS)</h5>
-                            <h4 class="text-primary mb-0">Svetog Save 56 Zvornik</h4>
-                        </div>
-                    </div>
-                </div>
-
 
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-0 mt-4">
                     <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.1s">
@@ -86,22 +76,71 @@
                             <i class="fa  fa-mobile text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="mb-2">{{__("index.broj telefona")}} (SR)</h5>
+                            <h5 class="mb-2">{{__("index.mobilni")}} </h5>
                             <h4 class="text-primary mb-0"><a href="tel:+381653338933" class="mb-0 text-primary" title="Telefon advokatske kancelarije u Beogradu">+381
                                     65/333-8933</a></h4>
                         </div>
                     </div>
                 </div>
-
-
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-0 mt-4">
                     <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.1s">
                         <div class="bg-primary d-flex align-items-center justify-content-center rounded"
                              style="width: 60px; height: 60px;">
+                            <i class="bi bi-telephone  text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="mb-2">{{__("index.telefon")}} </h5>
+                            <h4 class="text-primary mb-0"><a href="tel:+381116906807" title="Fiksni advokatske kancelarije u Beogradu" class="mb-0 text-primary">+381116906807</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 mb-0 mt-4">
+                    <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.4s">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded"
+                             style="width: 60px; height: 60px;">
+                            <i class="fa fa-envelope-open text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="mb-2">{{__("index.email adresa")}} </h5>
+                            <h4 class="text-primary mb-0"><a href="mailto:advgotovac@gmail.com" title="E-mail adresa advokatske kancelarije u Beogradu"
+                                                             class="mb-0 text-primary">advgotovac@gmail.com</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 pt-3">
+                    <h5>
+                        {{__("index.republika srpska")}}
+                    </h5>
+                </div>
+
+
+                <div class="col-lg-6 col-md-6 col-sm-12 mb-0 mt-3 srpska">
+                    <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.8s">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded"
+                             style="width: 40px; height: 40px;">
+                            <i class="fa fa-map-marker-alt text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="mb-2">{{__("index.lokacija kancelarije")}} </h5>
+                            <h4 class="text-primary mb-0">Svetog Save 56 Zvornik</h4>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-lg-6 col-md-6 col-sm-12 mb-0 mt-4 srpska">
+                    <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.1s">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded"
+                             style="width: 40px; height: 40px;">
                             <i class="fa fa-mobile text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="mb-2">{{__("index.broj telefona")}} (RS)</h5>
+                            <h5 class="mb-2">{{__("index.mobilni")}}</h5>
                             <h4 class="text-primary mb-0"><a href="tel:+38756210752" title="Telefon advokatske kancelarije u Banja Luci" class="mb-0 text-primary">+38756210752</a>
                             </h4>
                         </div>
@@ -110,28 +149,17 @@
 
 
 
-                <div class="col-lg-6 col-md-6 col-sm-12 mb-0 mt-4">
+
+
+
+                <div class="col-lg-6 col-md-6 col-sm-12 mb-0 mt-4 srpska">
                     <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.1s">
                         <div class="bg-primary d-flex align-items-center justify-content-center rounded"
-                             style="width: 60px; height: 60px;">
+                             style="width: 40px; height: 40px;">
                             <i class="bi bi-telephone  text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="mb-2">{{__("index.broj telefona")}} (SR)</h5>
-                            <h4 class="text-primary mb-0"><a href="tel:+381116906807" title="Fiksni advokatske kancelarije u Beogradu" class="mb-0 text-primary">+381116906807</a></h4>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-6 col-md-6 col-sm-12 mb-0 mt-4">
-                    <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.1s">
-                        <div class="bg-primary d-flex align-items-center justify-content-center rounded"
-                             style="width: 60px; height: 60px;">
-                            <i class="bi bi-telephone  text-white"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h5 class="mb-2">{{__("index.broj telefona")}} (RS)</h5>
+                            <h5 class="mb-2">{{__("index.telefon")}} </h5>
                             <h4 class="text-primary mb-0"><a href="tel:+38765325077" title="Telefon advokatske kancelarije  u Banja Luci" class="mb-0 text-primary">+38765325077</a>
                             </h4>
                         </div>
@@ -140,28 +168,15 @@
 
 
 
-                <div class="col-lg-6 col-md-6 col-sm-12 mb-0 mt-4">
-                    <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.4s">
-                        <div class="bg-primary d-flex align-items-center justify-content-center rounded"
-                             style="width: 60px; height: 60px;">
-                            <i class="fa fa-envelope-open text-white"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h5 class="mb-2">{{__("index.email adresa")}} (SR)</h5>
-                            <h4 class="text-primary mb-0"><a href="mailto:advgotovac@gmail.com" title="E-mail adresa advokatske kancelarije u Beogradu"
-                                                             class="mb-0 text-primary">advgotovac@gmail.com</a></h4>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-lg-6 col-md-6 col-sm-12 mb-0 mt-4">
+                <div class="col-lg-6 col-md-6 col-sm-12 mb-0 mt-4 srpska">
                     <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.4s">
                         <div class="bg-primary d-flex align-items-center justify-content-center rounded"
-                             style="width: 60px; height: 60px;">
+                             style="width: 40px; height: 40px;">
                             <i class="fa fa-envelope-open text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="mb-2">{{__("index.email adresa")}} (RS)</h5>
+                            <h5 class="mb-2">{{__("index.email adresa")}} </h5>
                             <h4 class="text-primary mb-0"><a href="mailto:jovangotovac@gmail.com" title="E-mail adresa advokatske kancelarije u Banja Luci"
                                                              class="mb-0 text-primary">jovangotovac@gmail.com</a></h4>
                         </div>
@@ -223,7 +238,7 @@
                 </div>
                 <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">
                     <iframe class="position-relative rounded w-100 h-100"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.3302942790683!2d20.415630175685653!3d44.81483537107076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a656f9b3fbb9d%3A0x6f323017b4f9faca!2sLAW%20OFFICE%20Advokatska%20kancelarija%20Gotovac%20Beograd!5e0!3m2!1ssr!2srs!4v1684945912625!5m2!1ssr!2srs"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.3302942790683!2d20.415630175685653!3d44.81483537107076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a656f9b3fbb9d%3A0x6f323017b4f9faca!2sLAW%20OFFICE%20Advokatska%20kancelarija%20Gotovac%20Beograd!5e0!3m2!1ssr!2srs!4v1684940912625!5m2!1ssr!2srs"
                             frameborder="0" style="min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false"
                             tabindex="0"></iframe>
                 </div>

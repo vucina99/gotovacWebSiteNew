@@ -13,15 +13,7 @@ return [
     'Godina postojanja' => 'Godina postojanja',
     'Zadovoljni klijenti' => 'Zadovoljni klijenti',
     'Punih 30 godina' => 'Punih 30 godina smo uz vas',
-    'tekst o nama' => '<strong>Advokatska kancelarija Gotovac</strong>, sa tradicijom dugom skoro <strong>tri decenije</strong>, pruža sveobuhvatne pravne usluge na                   teritoriji <strong>Republike Srbije</strong> i <strong>Republike Srpske (BiH)</strong>.<br><br>
-
-                        Naša <i>uža specijalnost</i> obuhvata zastupanje <strong>fizičkih i pravnih lica</strong> u postupcima <strong>naknade štete</strong> proistekle iz <strong>saobraćajnih nezgoda</strong> i <strong>povreda na radu</strong>, kao i zastupanje <strong>domaćih i stranih kompanija</strong> u postupcima <strong>naplate potraživanja</strong>.<br><br>
-
-                        <strong>Advokat Vladan Gotovac</strong> (<i>Republika Srbija – Beograd</i>) poseduje bogato iskustvo u vođenju <strong>sporova za naknadu štete</strong> i <strong>naplatu potraživanja velike vrednosti</strong>.<br><br>
-
-                        Naša advokatska kancelarija u  <strong>Republici Srpskoj (BiH)</strong>  pruža usluge iz oblasti <strong>privrednog i građanskog prava</strong>, uključujući zastupanje u <strong>složenim sudskim postupcima visoke vrednosti</strong>, kao i <strong>odbranu u krivičnim postupcima</strong>.<br><br>
-
-                        Naš tim je posvećen pružanju <strong>pouzdane, stručne i efikasne pravne zaštite</strong>, sa ciljem očuvanja i unapređenja <strong>interesa naših klijenata</strong>.',
+    'tekst o nama' => '<strong>Advokatska kancelarija Gotovac</strong>, sa tradicijom dugom gotovo <strong>tri decenije</strong>, pruža sveobuhvatne i visokoprofesionalne pravne usluge na teritoriji <strong>Republike Srbije</strong> i <strong>Republike Srpske (BiH)</strong>.<br><br> Naša <i>uža specijalnost</i> obuhvata zastupanje <strong>fizičkih i pravnih lica</strong> u postupcima <strong>naknade štete</strong> nastale usled <strong>saobraćajnih nezgoda</strong> i <strong>povreda na radu</strong>, kao i zastupanje <strong>domaćih i stranih kompanija</strong> u postupcima <strong>naplate potraživanja</strong> i rešavanja kompleksnih privrednih sporova.<br><br> <strong>Advokat Vladan Gotovac</strong> (<i>Republika Srbija – Beograd</i>) poseduje bogato iskustvo u vođenju <strong>sporova za naknadu štete</strong> i <strong>naplatu potraživanja velike vrednosti</strong>, što našim klijentima garantuje pravnu sigurnost i efikasno ostvarivanje njihovih prava.<br><br> Naš tim je posvećen pružanju <strong>pouzdanih, stručnih i efikasnih pravnih rešenja</strong>, sa ciljem očuvanja i unapređenja <strong>interesa naših klijenata</strong>. Kroz lični pristup, pravnu sigurnost i kontinuiranu posvećenost, nastojimo da izgradimo dugoročno poverenje i budemo prvi izbor u najvažnijim životnim i poslovnim situacijama.<br><br> <strong>Obratite nam se sa poverenjem – vaše pravo je naša obaveza.</strong>.',
     'Međunarodno zastupanje' => 'Međunarodno zastupanje',
     '24/7 podrška' => '24/7 podrška',
     'Online konsultacije' => 'Online konsultacije',
@@ -52,6 +44,8 @@ return [
     'pocetna' => 'Početna',
     'kontakt podnaslov' => 'Budite slobodni da nas kontaktirate',
     'broj telefona' => 'Broj telefona',
+    'telefon' => 'Broj telefona',
+    'mobilni' => 'Broj mobilnog',
     'email adresa' => 'E-mail adresa',
     'lokacija kancelarije' => 'Lokacija kancelarije',
     'vase ime' => 'Vaše ime',
@@ -97,15 +91,14 @@ return [
   <li>Savetovanje i zastupanje kod sporova između osiguravajućeg društva i ugovarača osiguranja</li>
     <li>Zastupanje pri naknadi štete kod osiguranog slučaja</li>
 </ul>',
-    'saobracajke usluge' => '<ul class="Services-list  w-100">
-   <li>Evropski izveštaji</li>
-    <li>Kasko štete</li>
-    <li>Nezgode sa pešacima</li>
-    <li>Štete na vozilima</li>
-    <li>Štete u javnom prevozu</li>
-    <li>Telesne povrede</li>
-    <li>Smrtni slučajevi</li>
-</ul>',
+    'evropski izvestaji' => 'Evropski izveštaji',
+    'kasko stete' => 'Kasko štete',
+    'nezgode sa pesacima' => 'Nezgode sa pešacima',
+    'stete na vozilima' => 'Štete na vozilima',
+    'stete u javnom prevozu' => 'Štete u javnom prevozu',
+    'telesne povrede' => 'Telesne povrede',
+    'smrtni slucajevi' => 'Smrtni slučajevi',
+    'na kamionima' => 'Nezgode i štete na kamionima',
     'uspesno slanje poruke' => "Uspešno ste poslali poruku kancelariji Gotovac.",
     'savetovanje' => "Pravno savetovanje",
     'savetovanje podnaslov' => "Potreban Vam je savet? budite slobodni da nas kontaktirate",
@@ -143,4 +136,15 @@ return [
     'galerija' => 'Galerija',
     'galerija podnaslov' => 'Ambijent sa našim potpisom',
     'poslednji' => 'Nedavne objave',
+    'republika srbija' => "Republika Srbija",
+    'republika srpska' => "Republika Srpska",
+    'povezane teme' => "Povezane teme",
+    'radno vreme' => "Ponedeljak-Petak: 10:00 - 17:00",
+    'radno vreme kratko' => "Pon-Pet: 10:00 - 17:00",
+    'prvi slajd' => "Rimsko pravo (princip nepristrasnosti, Corpus iuris civilis)",
+    'drugi slajd' => "Rimsko pravo (Digesta)",
+    'treci slajd' => "Rimski pravnici (pravilo tumačenja zakona)",
+    'cetvrti slajd' => "Princip krivičnog prava (Beccaria)",
+    'peti slajd' => "Rimsko pravo (opšta pravna maksima)",
+    'sesti slajd' => "Ciceron (princip kontradiktornosti)",
 ];

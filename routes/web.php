@@ -19,6 +19,14 @@ Route::get('/kalkulator-trudnicke-naknade', [IndexController::class, 'allowanceC
 Route::get('/galerija', [IndexController::class, 'gallery']);
 
 
+Route::get('/evropski-izvestaj', [IndexController::class, 'europeanAccidentReports']);
+Route::get('/kasko-stete', [IndexController::class, 'casco']);
+Route::get('/nezgode-sa-pesacima', [IndexController::class, 'walk']);
+Route::get('/stete-javni-prevoz', [IndexController::class, 'publicTransport']);
+Route::get('/smrtni-slucajevi', [IndexController::class, 'deathCases']);
+Route::get('/stete-na-vozilima', [IndexController::class, 'vehicleDamage']);
+Route::get('/stete-na-kamionima', [IndexController::class, 'truckDamage']);
+Route::get('/telesne-povrede', [IndexController::class, 'physicalInjuries']);
 
 
 

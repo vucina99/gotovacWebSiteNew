@@ -180,6 +180,17 @@
                 992: { items: 8 }
             }
         });
+
+
+        safeInit(".text-carousel", {
+            loop: true,
+            margin: 0,          // ili ostavi mali razmak (npr. 10)
+            dots: true,         // stavi true ako hoćeš tačkice
+            autoplay: true,
+            autoplayTimeout: 4000, // koliko traje jedan slajd
+            smartSpeed: 800,    // brzina prelaza
+            items: 1            // glavna opcija – uvek 1 po slajdu
+        });
     }
 
     function initCounters() {

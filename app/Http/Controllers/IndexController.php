@@ -46,6 +46,44 @@ class IndexController extends Controller
     {
         return view("pages.gallery");
     }
+
+    public function europeanAccidentReports()
+    {
+        return view("car_accident_pages.ear");
+    }
+    public function casco()
+    {
+        return view("car_accident_pages.casco");
+    }
+    public function walk()
+    {
+        return view("car_accident_pages.walker");
+    }
+    public function publicTransport()
+    {
+        return view("car_accident_pages.publicTransport");
+    }
+    public function deathCases()
+    {
+        return view("car_accident_pages.deathCases");
+
+    }
+    public function vehicleDamage()
+    {
+        return view("car_accident_pages.vehicleDamage");
+
+    }
+    public function truckDamage()
+    {
+        return view("car_accident_pages.truckDamage");
+
+    }
+    public function physicalInjuries()
+    {
+        return view("car_accident_pages.physicalInjuries");
+
+    }
+
     public function contactGotovac(ContactValidate $request)
     {
         Mail::to(env("MAIL_FROM_ADDRESS"))->send(new SendGotovacMail($request->name, $request->subjcet, $request->email, $request->message));
