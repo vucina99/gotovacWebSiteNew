@@ -54,6 +54,10 @@
                             <div class="section-title saobracajke position-relative pb-3  " style="max-width: 600px;">
                                 <h2 class="pt-2">{{ __("index.telesne povrede") }}</h2>
                             </div>
+                            <div class="w-100">
+                                <img src="{{asset("img/pages/telesne.png")}}"  alt="Muškarac sa vidljivim modricama i posekotinama na telu nakon nesreće"
+                                     title="Telesne povrede – naknada štete i pravna pomoć nakon povreda u nesreći" class="img-fluid">
+                            </div>
                             {!! __("pages.telesne povrede strana")  !!}
                         </div>
                     </div>

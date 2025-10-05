@@ -54,6 +54,10 @@
                             <div class="section-title saobracajke position-relative pb-3" style="max-width: 600px;">
                                 <h2 class="pt-2">{{ __("index.na kamionima") }}</h2>
                             </div>
+                            <div class="w-100">
+                                <img src="{{asset("img/pages/kamion.png")}}"    alt="Kamion sa oštećenim prednjim delom nakon manjeg sudara na putu."
+                                     title="Štete na kamionu – naknada štete i pravna pomoć vozačima teretnih vozila." class="img-fluid">
+                            </div>
                             {!! __("pages.stete na kamionima strana")  !!}
                         </div>
                     </div>

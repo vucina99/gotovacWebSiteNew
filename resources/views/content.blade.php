@@ -84,8 +84,8 @@
                 </div>
                 <div class="col-lg-4 text-center text-lg-end ">
                     <div class="d-inline-flex align-items-center" style="height: 45px;">
-                        <small class="me-3 text-light"><a href="tel:0653338933" class="text-light"><i
-                                    class="fa fa-mobile me-2"  title="Telefon advokatske kancelarije Gotovac"></i>+381 65-3338933</a></small>
+                        <small class="me-3 text-light"><a href="tel:+38163417117" class="text-light"><i
+                                    class="fa fa-mobile me-2"  title="Telefon advokatske kancelarije Gotovac"></i>+381 63/417-117</a></small>
                         <small class="text-light"><a href="tel:+381116906807" title="Fiksni advokatske kancelarije Gotovac" class="text-light"><i
                                     class="fa fa-phone-alt me-2"></i>+381116906807</a></small>
                     </div>
@@ -292,7 +292,7 @@
                         </div>
                         <div class="d-flex mb-3">
                             <i class="fa fa-mobile text-primary me-2"></i>
-                            <a href="tel:+381653338933" title="Prvi broj telefona u Republici Srbiji" class="mb-0 text-white">+381 65/333-8933</a>
+                            <a href="tel:+38163417117" title="Prvi broj telefona u Republici Srbiji" class="mb-0 text-white">+381 63/417-117</a>
                         </div>
                         <div class="d-flex mb-3">
                             <i class="bi bi-telephone text-primary me-2"></i>

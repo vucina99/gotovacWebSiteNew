@@ -608,9 +608,9 @@
                                 </div>
                                 <div class="ps-4">
                                     <h5 class="mb-2">{{__("index.mobilni")}}</h5>
-                                    <h4 class="text-primary mb-0"><a href="tel:+381653338933"
+                                    <h4 class="text-primary mb-0"><a href="tel:+38163417117"
                                                                      title="Broj advokatske kancelarije u Beogradu"
-                                                                     class="mb-0 text-primary">+381 65-3338933</a></h4>
+                                                                     class="mb-0 text-primary">+381 63/417-117</a></h4>
                                 </div>
                             </div>
 
@@ -621,9 +621,9 @@
                                 </div>
                                 <div class="ps-4">
                                     <h5 class="mb-2">{{__("index.telefon")}}</h5>
-                                    <h4 class="text-primary mb-0"><a href="tel:+38765325077"
+                                    <h4 class="text-primary mb-0"><a href="tel:+381116906807"
                                                                      title="Broj advokatske kancelarije u Banja Luci"
-                                                                     class="mb-0 text-primary">+38765325077</a></h4>
+                                                                     class="mb-0 text-primary">+381116906807</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -712,7 +712,7 @@
                 </div>
 
                 <div class="text-center py-3 ">
-                    <a href="https://www.google.com/search?q=gotovac&oq=gotovac&gs_lcrp=EgZjaHJvbWUqDAgAECMYJxiABBiKBTIMCAAQIxgnGIAEGIoFMhAIARAuGK8BGMcBGNQCGIAEMggIAhBFGCcYOzIGCAMQRRhAMgkIBBBFGDsYgAQyCggFEC4Y1AIYgAQyBggGEEUYPDIGCAcQRRg80gEINjYwOGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x475a656f9b3fbb9d:0x6f323017b4f9faca,1,,,,"
+                    <a href="https://www.google.com/search?sca_esv=a69f5a9c38853b18&sxsrf=AE3TifOTnjDl0wGTtJETD4pDeseaaKp7tw:1759591193901&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E_7X50f9DN9_Km4OYe5AFRAbZUKRjmNspOKzLP1CJhIgk533Hm-dnA6hD5lBEMO8_jSS9RA_0gjeULGJV_rRlqL32q5RAfKNVPXQMLK6eWgLAzT8EEEX_Ae26KeT0i8wyhOvEoj-bm8TiWOOdM7rQuZMkVDw&q=LAW+OFFICE+Advokatska+kancelarija+Gotovac+Beograd+%D0%A0%D0%B5%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%98%D0%B5&sa=X&ved=2ahUKEwiP07-A7IqQAxU5g_0HHebRBbwQ0bkNegQIIBAE&biw=1920&bih=1073&dpr=1"
                        target="_blank" class=" border-bottom border-primary fw-bold" title="Naše Google recenzije">
                         80 Google {{__("index.Recenzije")}} ( 4.9 <i class="fa fa-star"></i> )
                     </a>

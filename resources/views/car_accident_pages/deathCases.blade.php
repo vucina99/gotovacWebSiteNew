@@ -54,6 +54,10 @@
                             <div class="section-title saobracajke position-relative pb-3 " style="max-width: 600px;">
                                 <h2 class="pt-2">{{ __("index.smrtni slucajevi") }}</h2>
                             </div>
+                            <div class="w-100">
+                                <img src="{{asset("img/pages/smrt.png")}}" alt="Osoba u bolničkom krevetu dok joj najbliži drži ruku u znak podrške i oproštaja"
+                                     title="Smrtni slučajevi – pravna pomoć i naknada štete porodici preminulog" class="img-fluid">
+                            </div>
                                 {!! __("pages.smrtni slucajevi strana")  !!}
                         </div>
                     </div>

@@ -50,6 +50,10 @@
                             <div class="section-title saobracajke position-relative pb-3 " style="max-width: 600px;">
                                 <h2 class="pt-2">{{ __("index.stete u javnom prevozu") }}</h2>
                             </div>
+                            <div class="w-100">
+                                <img src="{{asset("img/pages/bus.png")}}"   alt="Muškarac u autobusu drži povređenu nogu nakon saobraćajne nezgode"
+                                     title="Štete u javnom prevozu – naknada štete putnicima povređenim u saobraćajnoj nezgodi" class="img-fluid">
+                            </div>
                             {!! __("pages.stete u javnom prevozu strana")  !!}
                         </div>
                     </div>

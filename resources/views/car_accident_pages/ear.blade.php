@@ -55,6 +55,10 @@
                                     <div class="section-title saobracajke position-relative pb-3  " style="max-width: 600px;">
                                         <h2 class="pt-2">{{ __("index.evropski izvestaji") }}</h2>
                                     </div>
+                                    <div class="w-100">
+                                        <img src="{{asset("img/pages/eu_izvestaj.webp")}}"  alt="Popunjavanje evropskog izveštaja o saobraćajnoj nezgodi"
+                                             title="Evropski izveštaj – pomoć pri popunjavanju i prijavi saobraćajne nezgode" class="img-fluid">
+                                    </div>
                                     <p>
                                         {!! __("pages.evropski izvestaj strana")  !!}
                                     </p>

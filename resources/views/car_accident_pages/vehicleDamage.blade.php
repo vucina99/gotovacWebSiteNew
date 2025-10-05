@@ -54,6 +54,10 @@
                             <div class="section-title saobracajke position-relative pb-3 " style="max-width: 600px;">
                                 <h2 class="pt-2">{{ __("index.stete na vozilima") }}</h2>
                             </div>
+                            <div class="w-100">
+                                <img src="{{asset("img/pages/stete.jpg")}}" alt="Dva oštećena automobila nakon sudara, dok žena pored vozila poziva pomoć telefonom."
+                                     title="Štete na vozilima – naknada materijalne štete nakon saobraćajne nezgode." class="img-fluid">
+                            </div>
                             {!! __("pages.stete na vozilima strana")  !!}
                         </div>
                     </div>

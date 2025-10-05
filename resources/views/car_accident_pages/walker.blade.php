@@ -52,6 +52,10 @@
                             <div class="section-title saobracajke position-relative pb-3 " style="max-width: 600px;">
                                 <h2 class="pt-2">{{ __("index.nezgode sa pesacima") }}</h2>
                             </div>
+                            <div class="w-100">
+                                <img src="{{asset("img/pages/pesak.jpg")}}" alt="Povređeni pešak sedi na trotoaru nakon saobraćajne nezgode"
+                                     title="Nezgode sa pešacima – naknada štete i pravna pomoć povređenim pešacima" class="img-fluid">
+                            </div>
                                 {!! __("pages.nezgode sa pesacima strana")  !!}
                         </div>
                     </div>

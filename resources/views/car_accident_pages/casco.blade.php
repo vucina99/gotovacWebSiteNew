@@ -54,6 +54,10 @@
                             <div class="section-title saobracajke position-relative pb-3 " style="max-width: 600px;">
                                 <h2 class="pt-2">{{ __("index.kasko stete") }}</h2>
                             </div>
+                            <div class="w-100">
+                                <img src="{{asset("img/pages/kasko.jpg")}}"  alt="Oštećen automobil nakon manjeg sudara, prikaz kasko štete"
+                                     title="Kasko šteta – naknada za oštećenja na vašem vozilu" class="img-fluid">
+                            </div>
 
                                 {!! __("pages.kasko stete strana")  !!}
 

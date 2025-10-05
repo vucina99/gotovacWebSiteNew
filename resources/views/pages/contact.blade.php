@@ -77,8 +77,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">{{__("index.mobilni")}} </h5>
-                            <h4 class="text-primary mb-0"><a href="tel:+381653338933" class="mb-0 text-primary" title="Telefon advokatske kancelarije u Beogradu">+381
-                                    65/333-8933</a></h4>
+                            <h4 class="text-primary mb-0"><a href="tel:+38163417117" class="mb-0 text-primary" title="Telefon advokatske kancelarije u Beogradu">+381 63/417-117</a></h4>
                         </div>
                     </div>
                 </div>
@@ -141,7 +140,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">{{__("index.mobilni")}}</h5>
-                            <h4 class="text-primary mb-0"><a href="tel:+38756210752" title="Telefon advokatske kancelarije u Banja Luci" class="mb-0 text-primary">+38756210752</a>
+                            <h4 class="text-primary mb-0"><a href="tel:+38765325077" title="Mobilni telefon advokatske kancelarije  u Banja Luci" class="mb-0 text-primary">+38765325077</a>
                             </h4>
                         </div>
                     </div>
@@ -160,7 +159,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">{{__("index.telefon")}} </h5>
-                            <h4 class="text-primary mb-0"><a href="tel:+38765325077" title="Telefon advokatske kancelarije  u Banja Luci" class="mb-0 text-primary">+38765325077</a>
+                            <h4 class="text-primary mb-0"> <a href="tel:+38756210752" title="Telefon advokatske kancelarije u Banja Luci" class="mb-0 text-primary">+38756210752</a>
                             </h4>
                         </div>
                     </div>
