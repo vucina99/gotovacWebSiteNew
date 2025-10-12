@@ -154,4 +154,5 @@ Our team is dedicated to providing <strong>reliable, professional, and efficient
     'cetvrti slajd' => "Principle of criminal law (Beccaria)",
     'peti slajd' => "Roman law (general legal maxim)",
     'sesti slajd' => "Cicero (principle of hearing the other side)",
+    'nema blogova' => "There are currently no posts to display"
 ];

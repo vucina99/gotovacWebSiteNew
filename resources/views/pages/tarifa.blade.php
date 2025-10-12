@@ -49,7 +49,7 @@
                 <h2 class="mb-0"> {{__("index.tarifa podnaslov")}}</h2>
             </div>
             <br>
-            <a href="{{asset("assets/files/tarifa-gotovac.pdf")}}" title="Preuzimanje PDF dokument advokatske tarife 2025"
+            <a href="{{asset("files/tarifa-gotovac.pdf")}}" title="Preuzimanje PDF dokument advokatske tarife 2025"
                class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" download>  {{__("index.preuzmi")}} PDF  </a>
             <br> <br>
             <div class="table-responsive">

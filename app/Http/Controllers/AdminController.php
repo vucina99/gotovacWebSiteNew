@@ -8,7 +8,7 @@ use App\Models\Consultation;
 use App\Traits\StatusCode;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
-
+use App\Models\Blog;
 class AdminController extends Controller
 {
     use StatusCode;
@@ -106,6 +106,11 @@ class AdminController extends Controller
         //provera da li je povezano sa nekim blogom
 
         $category = BlogCategory::findOrFail($id);
+        $blog = Blog::where("blog_category_id" , $id)->first();
+        if($blog){
+             abort(403);
+        }
+
         $category->delete();
 
         return $this->success(200, "Category has been successfully deleted");

@@ -70,6 +70,9 @@ export default {
                     {{blog.title}}
                 </a>
             </div>
+            <div class="alert alert-primary w-100" v-if="lastBlogs.length < 1">
+                {{ translate['nema blogova'] }}
+            </div>
         </div>
     </div>
 </template>

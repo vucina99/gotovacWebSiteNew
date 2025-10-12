@@ -840,11 +840,7 @@
                                 <br>
                                 {{__('index.pripravnik')}}
                             </div>
-                            <div class="zaposleni white-papir text-center py-5 me-3 mb-3 fw-bold">
-                                <span class="text-dark">Maria Lola Veinović</span>
-                                <br>
-                                {{__('index.pripravnik')}}
-                            </div>
+
                             <div class="zaposleni white-papir text-center py-5 me-3 mb-3 fw-bold">
                                 <span class="text-dark">Maria Lola Veinović</span>
                                 <br>

@@ -20,6 +20,7 @@
           content="{{$post->meta_description}}"/>
     <meta name="description"
           content="{{$post->meta_description}}"/>
+    <meta name="category" content="{{$post->category}}">
 
     <meta name="robots" content="index, follow">
 

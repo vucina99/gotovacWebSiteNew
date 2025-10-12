@@ -147,4 +147,5 @@ return [
     'cetvrti slajd' => "Princip krivičnog prava (Beccaria)",
     'peti slajd' => "Rimsko pravo (opšta pravna maksima)",
     'sesti slajd' => "Ciceron (princip kontradiktornosti)",
+    'nema blogova' => "Trenutno nema objava za prikazivanje"
 ];

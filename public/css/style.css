@@ -1,5 +1,6 @@
 /********** Template CSS **********/
 
+
 :root {
     --primary: #0056b3;
     --secondary: #34AD54;
@@ -512,4 +513,11 @@ h6,
 }
 .section-title span{
     font-size: 14px !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden !important;
 }

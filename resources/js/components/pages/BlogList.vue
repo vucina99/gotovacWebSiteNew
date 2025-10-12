@@ -85,7 +85,11 @@ export default {
                                 </div>
                             </div>
                         </div>
-
+                        <div class="col-12 wow slideInUp" data-wow-delay="0.1s" v-if="blogs.length < 1">
+                            <div class="alert alert-primary " >
+                                {{ translate['nema blogova'] }}
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- Blog list End -->
