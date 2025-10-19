@@ -289,8 +289,9 @@ body, html, h1, h2, h3, h4, h5, h6, p, a, span, div , a {
     position: relative;
     top: -14px;
 }
-.podmenu a{
-    font-size: 14.5px;
+.podmenu a {
+    font-size: 16.5px;
+
 }
 .podmenu a:hover {
     margin-left:6px;
@@ -298,5 +299,57 @@ body, html, h1, h2, h3, h4, h5, h6, p, a, span, div , a {
 }
 
 .nav-link {
-    font-size: 16px;
+    font-size: 16.5px;
+}
+/*!* 400 *!*/
+/*@font-face {*/
+/*    font-family: 'DJOverride';*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-display: swap;*/
+/*    src: url('https://fonts.gstatic.com/s/cardo/v21/wlp_gwjKBV1pqhv23IEp2A.woff2') format('woff2');*/
+/*    unicode-range: U+0110, U+0111; !* Đ, đ *!*/
+/*}*/
+
+/*!* 500 – koristimo isti fajl da bismo uhvatili glif (može!) *!*/
+/*@font-face {*/
+/*    font-family: 'DJOverride';*/
+/*    font-style: normal;*/
+/*    font-weight: 500;*/
+/*    font-display: swap;*/
+/*    src: url('https://fonts.gstatic.com/s/cardo/v21/wlp_gwjKBV1pqhv23IEp2A.woff2') format('woff2');*/
+/*    unicode-range: U+0110, U+0111;*/
+/*}*/
+
+/*!* 600 – isto, da pokrijemo semibold naslove *!*/
+/*@font-face {*/
+/*    font-family: 'DJOverride';*/
+/*    font-style: normal;*/
+/*    font-weight: 600;*/
+/*    font-display: swap;*/
+/*    src: url('https://fonts.gstatic.com/s/cardo/v21/wlp_gwjKBV1pqhv23IEp2A.woff2') format('woff2');*/
+/*    unicode-range: U+0110, U+0111;*/
+/*}*/
+
+/*!* 700 *!*/
+/*@font-face {*/
+/*    font-family: 'DJOverride';*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    font-display: swap;*/
+/*    src: url('https://fonts.gstatic.com/s/cardo/v21/wlp_gwjKBV1pqhv23IEp2A.woff2') format('woff2');*/
+/*    unicode-range: U+0110, U+0111;*/
+/*}*/
+
+/*!* === FORSIRAJ render da prvo pokuša DJOverride, pa Cinzel === *!*/
+/*!* :where(*) + !important da pregazi sve specifične selektore *!*/
+/*:where(html, body, h1, h2, h3, h4, h5, h6, p, a, span, div, .title, .logo, .nav, .hero, .btn) {*/
+/*    font-family: 'DJOverride', 'Cinzel', serif !important;*/
+/*    font-synthesis: none; !* ne pravi sintetički bold/italic *!*/
+/*}*/
+.no-copy, .no-copy * {
+    -webkit-user-select: none; /* Safari/Chrome/iOS */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Stari Edge/IE */
+    user-select: none;         /* Standard */
 }

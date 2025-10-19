@@ -57,6 +57,7 @@
                                      title="Nezgode sa pešacima – naknada štete i pravna pomoć povređenim pešacima" class="img-fluid">
                             </div>
                                 {!! __("pages.nezgode sa pesacima strana")  !!}
+                            <p class="fst-italic text-primary"> <i class="bi text-primary bi-info-circle"></i> {{ __("index.copy") }}</p>
                         </div>
                     </div>
                     <!-- Blog list End -->

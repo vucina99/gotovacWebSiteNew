@@ -27,6 +27,12 @@ Route::get('/smrtni-slucajevi', [IndexController::class, 'deathCases']);
 Route::get('/stete-na-vozilima', [IndexController::class, 'vehicleDamage']);
 Route::get('/stete-na-kamionima', [IndexController::class, 'truckDamage']);
 Route::get('/telesne-povrede', [IndexController::class, 'physicalInjuries']);
+Route::get('/kasnjenje-leta-na-aerodromu', [IndexController::class, 'flightDelays']);
+Route::get('/advokat-za-saobracajke', [IndexController::class, 'carAccident']);
+Route::get('/mesecna-renta', [IndexController::class, 'monthlyAnnuity']);
+Route::get('/povrede-na-radu', [IndexController::class, 'workPlaceInjures']);
+Route::get('/vrste-saobracajnih-steta', [IndexController::class, 'damagesTypes']);
+Route::get('/stete-na-motociklima', [IndexController::class, 'motociklesDamage']);
 
 
 

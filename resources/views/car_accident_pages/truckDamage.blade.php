@@ -59,6 +59,7 @@
                                      title="Štete na kamionu – naknada štete i pravna pomoć vozačima teretnih vozila." class="img-fluid">
                             </div>
                             {!! __("pages.stete na kamionima strana")  !!}
+                            <p class="fst-italic text-primary"> <i class="bi text-primary bi-info-circle"></i> {{ __("index.copy") }}</p>
                         </div>
                     </div>
                     <!-- Blog list End -->

@@ -154,5 +154,12 @@ Our team is dedicated to providing <strong>reliable, professional, and efficient
     'cetvrti slajd' => "Principle of criminal law (Beccaria)",
     'peti slajd' => "Roman law (general legal maxim)",
     'sesti slajd' => "Cicero (principle of hearing the other side)",
-    'nema blogova' => "There are currently no posts to display"
+    'nema blogova' => "There are currently no posts to display",
+    "kasnjenje leta" => "Flight delays at the airport",
+    "advokat za saobracajke" => "Lawyer for traffic accidents",
+    "renta" => "Monthly annuity",
+    "povrede na radu" => "Workplace injuries",
+    "vrste štete" => "Types of damages for traffic accident victims",
+    "motocikli" => "Motorcycle damages",
+    "copy" => "Copying of texts from the law firm’s website is prohibited. Copyright in these texts is protected with the Intellectual Property Office under No. 2025/12922 A-0384/25, dated 03.09.2025."
 ];

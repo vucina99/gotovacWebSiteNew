@@ -59,6 +59,8 @@
                                      title="Smrtni slučajevi – pravna pomoć i naknada štete porodici preminulog" class="img-fluid">
                             </div>
                                 {!! __("pages.smrtni slucajevi strana")  !!}
+
+                            <p class="fst-italic text-primary"> <i class="bi text-primary bi-info-circle"></i> {{ __("index.copy") }}</p>
                         </div>
                     </div>
                     <!-- Blog list End -->

@@ -51,5 +51,24 @@
             <i
                 class="bi bi-arrow-right me-2"></i> {{ __("index.telesne povrede") }}
         </a>
+        <a href="/kasnjenje-leta-na-aerodromu" class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" title="Kasnjenje leta na aerodromu">
+            <i  class="bi bi-arrow-right me-2"></i></i> {{ __("index.kasnjenje leta") }}
+        </a>
+        <a href="/advokat-za-saobracajke" class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" title="Advokat za saobraćajke">
+            <i  class="bi bi-arrow-right me-2"></i></i> {{ __("index.advokat za saobracajke") }}
+        </a>
+        <a href="/mesecna-renta"  title="Mesečna renta" class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2">
+            <i  class="bi bi-arrow-right me-2"></i></i> {{ __("index.renta") }}
+        </a>
+        <a href="/povrede-na-radu"  title="Povrede na radu" class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2">
+            <i  class="bi bi-arrow-right me-2"></i></i>   {{ __("index.povrede na radu") }}
+        </a>
+        <a href="/vrste-saobracajnih-steta"  title="Vrste štete za žrtve saobraćajne nezgode" class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2">
+            <i  class="bi bi-arrow-right me-2"></i></i>   {{ __("index.vrste štete") }}
+        </a>
+        <a href="/stete-na-motociklima"  title="Štete na motociklima" class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2">
+            <i  class="bi bi-arrow-right me-2"></i></i>    {{ __("index.motocikli") }}
+        </a>
+
     </div>
 </div>

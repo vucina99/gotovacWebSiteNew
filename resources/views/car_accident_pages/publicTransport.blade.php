@@ -55,6 +55,7 @@
                                      title="Štete u javnom prevozu – naknada štete putnicima povređenim u saobraćajnoj nezgodi" class="img-fluid">
                             </div>
                             {!! __("pages.stete u javnom prevozu strana")  !!}
+                            <p class="fst-italic text-primary"> <i class="bi text-primary bi-info-circle"></i> {{ __("index.copy") }}</p>
                         </div>
                     </div>
                     <!-- Blog list End -->

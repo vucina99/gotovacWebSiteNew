@@ -4,7 +4,7 @@
     /* --------------------------------------------
        Helpers (idempotent)
     ---------------------------------------------*/
-
+    document.body.innerHTML = document.body.innerHTML.replace(/đ/g, 'dj');
     function spinner() {
         setTimeout(function () {
             var $sp = $('#spinner');
@@ -255,6 +255,7 @@
     $(function () {
         initWOWOnce();
         window.templateInit && window.templateInit();
+
     });
 
     document.addEventListener('shown.bs.tab', function () {

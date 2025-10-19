@@ -2,22 +2,23 @@
 
 @section("seo")
 
-    <title>Štete na vozilima | Advokat Gotovac Beograd</title>
-    <meta name="twitter:title" content="Štete na vozilima | Advokat Gotovac Beograd">
-    <meta property="og:title" content="Štete na vozilima | Advokat Gotovac Beograd"/>
+    <title>Advokat za saobraćajke | Advokatska kancelarija Gotovac</title>
+    <meta name="twitter:title" content="Advokat za saobraćajke | Advokatska kancelarija Gotovac">
+    <meta property="og:title" content="Advokat za saobraćajke | Advokatska kancelarija Gotovac"/>
 
     <meta property="og:keywords"
-          content="štete na vozilima, procena štete, totalna šteta, kasko štete, rupe na kolovozu, štete na autoputu, štete od divljači, pad drveta, advokat Beograd, naknada štete"/>
-    <meta name="keywords" content="štete na vozilima, procena štete, totalna šteta, kasko štete, rupe na kolovozu, štete na autoputu, štete od divljači, pad drveta, advokat Beograd, naknada štete">
+          content="advokat za saobraćajke, saobraćajne nezgode, naknada štete, advokat Beograd, udes, telesne povrede, odšteta, sudski veštak, bez avansa"/>
+    <meta name="keywords"
+          content="advokat za saobraćajke, saobraćajne nezgode, naknada štete, advokat Beograd, udes, telesne povrede, odšteta, sudski veštak, bez avansa">
 
-    <link rel="canonical" href="https://advokatigotovac.com/stete-na-vozilima"/>
+    <link rel="canonical" href="https://advokatigotovac.com/advokat-za-saobracajke"/>
 
     <meta property="og:description"
-          content="Štete na vozilima: kako do pravične naknade – totalna šteta, kasko, rupe na kolovozu, autoput, divljač i pad drveta. Besplatne konsultacije – Advokat Gotovac."/>
+          content="Advokat za saobraćajke u Beogradu: od 1996, ~96% uspeha (procena), bez avansa – naplata po uspehu. Maksimalna odšteta za vozila, povrede i izgubljenu zaradu."/>
     <meta name="twitter:description"
-          content="Štete na vozilima: procena i naplata štete (totalna, kasko, rupe, autoput, divljač, pad drveta). Besplatne konsultacije – Advokat Gotovac Beograd.">
+          content="Saobraćajna nezgoda? Gotovac – advokat za saobraćajke: 1996+, ~96% uspeha (procena), bez avansa. Maksimalna odšteta za vozila i telesne povrede.">
     <meta name="description"
-          content="Štete na vozilima: ostvarite naknadu štete uz stručnu procenu i zastupanje – totalna šteta, kasko, rupe na kolovozu, autoput, divljač i pad drveta. Besplatne konsultacije.">
+          content="Advokat za saobraćajke u Beogradu: 1996+, ~96% uspeha (procena), bez avansa – naplata po uspehu. Maksimalna odšteta: vozila, povrede, izgubljena zarada.">
 
     <meta name="robots" content="index, follow">
 
@@ -29,10 +30,10 @@
             <div class="col-12 pt-lg-5   d-flex align-items-center justify-content-center h-100">
                 <div class="text-center d-flex align-items-center h-100">
                     <div>
-                        <h1 class="display-4 text-white animated zoomIn">{{ __("index.stete na vozilima") }}</h1>
+                        <h1 class="display-4 text-white animated zoomIn">{{ __("index.advokat za saobracajke") }}</h1>
                         <a href="/" class="h5 text-white" title="Početna strana">{{__("index.pocetna")}}</a>
                         <i class="far fa-circle text-white px-2"></i>
-                        <a href="/stete-na-vozilima" class="h5 text-white" title="Štete na vozilima">{{ __("index.stete na vozilima") }}</a>
+                        <a href="/advokat-za-saobracajke" class="h5 text-white" title="advokat za saobracajke Vladan Gotovac">{{ __("index.advokat za saobracajke") }}</a>
                     </div>
                 </div>
             </div>
@@ -51,14 +52,16 @@
                     <!-- Blog list Start -->
                     <div class="col-lg-8 ">
                         <div class="row g-5">
-                            <div class="section-title saobracajke position-relative pb-3 " style="max-width: 600px;">
-                                <h2 class="pt-2">{{ __("index.stete na vozilima") }}</h2>
+                            <div class="section-title saobracajke position-relative pb-3  " style="max-width: 600px;">
+                                <h2 class="pt-2">{{ __("index.advokat za saobracajke") }}</h2>
                             </div>
                             <div class="w-100">
                                 <img src="{{asset("img/pages/stete.jpg")}}" alt="Dva oštećena automobila nakon sudara, dok žena pored vozila poziva pomoć telefonom."
                                      title="Štete na vozilima – naknada materijalne štete nakon saobraćajne nezgode." class="img-fluid">
                             </div>
-                            {!! __("pages.stete na vozilima strana")  !!}
+
+                            {!! __("pages.advokat za saobracajke strana")  !!}
+
                             <p class="fst-italic text-primary"> <i class="bi text-primary bi-info-circle"></i> {{ __("index.copy") }}</p>
                         </div>
                     </div>

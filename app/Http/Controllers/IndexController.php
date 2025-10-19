@@ -84,6 +84,32 @@ class IndexController extends Controller
 
     }
 
+    public function flightDelays()
+    {
+        return view("car_accident_pages.flightDelays");
+    }
+    public function carAccident()
+    {
+        return view("car_accident_pages.carAccident");
+    }
+    public function monthlyAnnuity()
+    {
+        return view("car_accident_pages.monthlyAnnuity");
+
+    }
+    public function workPlaceInjures()
+    {
+        return view("car_accident_pages.workPlaceInjures");
+
+    }
+    public function damagesTypes()
+    {
+        return view("car_accident_pages.typesDamage");
+    }
+    public function motociklesDamage()
+    {
+        return view("car_accident_pages.motociklesDamage");
+    }
     public function contactGotovac(ContactValidate $request)
     {
         Mail::to(env("MAIL_FROM_ADDRESS"))->send(new SendGotovacMail($request->name, $request->subjcet, $request->email, $request->message));

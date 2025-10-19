@@ -52,10 +52,12 @@
                             <h4 class="display-1 text-white mb-md-4 animated zoomIn">{{__("index.Naša kancelarija je osnovana 1996 godine")}}</h4>
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">{{__("index.Advokatska kancelarija Gotovac & Saradnici")}}</h1>
                             <br><br>
-                            <a href="/advokatska-tarifa" title="Advokatska tarifa kancelarije"
-                               class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"> {{__("index.Cenovnik")}} </a>
-                            <a href="/kalkulator-trudnicke-naknade" title="Izračunajte trudničku naknadu"
-                               class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight"> {{__("index.Kalkulator")}} </a>
+                            <a href="https://www.google.com/search?sca_esv=a69f5a9c38853b18&sxsrf=AE3TifOTnjDl0wGTtJETD4pDeseaaKp7tw:1759591193901&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E_7X50f9DN9_Km4OYe5AFRAbZUKRjmNspOKzLP1CJhIgk533Hm-dnA6hD5lBEMO8_jSS9RA_0gjeULGJV_rRlqL32q5RAfKNVPXQMLK6eWgLAzT8EEEX_Ae26KeT0i8wyhOvEoj-bm8TiWOOdM7rQuZMkVDw&q=LAW+OFFICE+Advokatska+kancelarija+Gotovac+Beograd+%D0%A0%D0%B5%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%98%D0%B5&sa=X&ved=2ahUKEwiP07-A7IqQAxU5g_0HHebRBbwQ0bkNegQIIBAE&biw=1920&bih=1073&dpr=1"
+                               target="_blank"
+                               class="btn btn-primary py-2 px-2 py-md-3 px-md-5  me-3 animated slideInLeft"
+                               title="Naše Google recenzije">
+                                80 Google {{__("index.Recenzije")}} ( 4.9 <i class="fa fa-star"></i> )
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -197,11 +199,7 @@
                              alt="Staromodni pečat cenovnik"
                              title="Staromodni pečat cenovnik">
                     @endif
-
-
                 </a>
-
-
             </div>
         </div>
 
@@ -213,165 +211,189 @@
                     <h5 class="fw-bold text-primary text-uppercase">{{__("index.usluge")}}</h5>
                     <h1 class="mb-0">{{__("index.usluge podnaslov")}}</h1>
                 </div>
-                <div class="row g-5">
+                <div class="row g-5 align-items-stretch">
 
-                    <div class="col-lg-8 col-md-12 wow zoomIn" data-wow-delay="0.9s">
+                    <div class="col-lg-8 col-md-12 d-flex wow zoomIn" data-wow-delay="0.9s">
                         <div
-                            class="service-item bg-primary rounded d-flex flex-column align-items-center text-center">
+                            class="service-item bg-primary rounded d-flex flex-column align-items-center text-center w-100 h-100">
                             <div class="service-icon mt-4 mb-3">
-                                <img src="{{asset("/img/advokatske-usluge/car.png")}}" loading="lazy" decoding="async"
-                                     class="img-fluid w-100"
-                                     alt="Ikonica za saobraćajne nezgode">
+                                <img src="{{ asset('/img/advokatske-usluge/car.png') }}" loading="lazy" decoding="async"
+                                     class="img-fluid w-100" alt="Ikonica za saobraćajne nezgode">
                             </div>
-                            <h4 class="mb-5 w-100 mt-0 text-white">{{__("index.advokat za saobracaj")}}</h4>
-                            <div class="text-white d-flex justify-content-center w-100 pb-5">
-                                    <div class="row text-start w-100">
+                            <h4 class="mb-5 w-100 mt-0 text-white">{{ __('index.advokat za saobracaj') }}</h4>
 
-                                        <div class="col-lg-6 col-md-6 col-12 ">
-                                            <div class="w-auto mx-lg-auto">
-                                                <table class="mx-lg-auto">
-                                                    <tr>
-                                                        <td class="pb-2">
-                                                            <a href="/evropski-izvestaj" class="text-white" title="Evropski izveštaji o saobraćajnim nezgodama">
-                                                                <i class="bi bi-arrow-right"></i> {{ __("index.evropski izvestaji") }}
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="pb-2">
-                                                            <a href="/nezgode-sa-pesacima" class="text-white" title="Pravna pomoć kod nezgoda sa pešacima">
-                                                                <i class="bi bi-arrow-right"></i> {{ __("index.nezgode sa pesacima") }}
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="pb-2">
-                                                            <a href="/stete-javni-prevoz" class="text-white" title="Naknada štete u javnom prevozu">
-                                                                <i class="bi bi-arrow-right"></i> {{ __("index.stete u javnom prevozu") }}
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="pb-2">
-                                                            <a href="/smrtni-slucajevi" class="text-white" title="Pravna zaštita u slučaju smrtnog slučaja">
-                                                                <i class="bi bi-arrow-right"></i> {{ __("index.smrtni slucajevi") }}
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6 col-md-6 col-12 ">
-                                            <div class="w-auto mx-lg-auto">
-                                                <table class="mx-lg-auto">
-                                                    <tr>
-                                                        <td class="pb-2">
-                                                            <a href="/kasko-stete" class="text-white" title="Kasko osiguranje i naplata štete">
-                                                                <i class="bi bi-arrow-right"></i> {{ __("index.kasko stete") }}
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="pb-2">
-                                                            <a href="/stete-na-vozilima" class="text-white" title="Naknada za štete na vozilima">
-                                                                <i class="bi bi-arrow-right"></i> {{ __("index.stete na vozilima") }}
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="pb-2">
-                                                            <a href="/stete-na-kamionima" class="text-white" title="Pravna pomoć za štete na kamionima i teretnim vozilima">
-                                                                <i class="bi bi-arrow-right"></i> {{ __("index.na kamionima") }}
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="pb-2">
-                                                            <a href="/telesne-povrede" class="text-white" title="Naknada za telesne povrede u saobraćajnim nezgodama">
-                                                                <i class="bi bi-arrow-right"></i> {{ __("index.telesne povrede") }}
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </div>
+                            <div class="text-white d-flex justify-content-center w-100 pb-5 flex-grow-1">
+                                <div class="row text-start w-100">
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <div class="w-auto mx-lg-auto">
+                                            <table class="mx-lg-auto">
+                                                <tr>
+                                                    <td class="pb-2"><a href="/evropski-izvestaj" class="text-white"
+                                                                        title="Evropski izveštaji o saobraćajnim nezgodama"><i
+                                                                class="bi bi-arrow-right"></i> {{ __('index.evropski izvestaji') }}
+                                                        </a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="pb-2"><a href="/nezgode-sa-pesacima" class="text-white"
+                                                                        title="Pravna pomoć kod nezgoda sa pešacima"><i
+                                                                class="bi bi-arrow-right"></i> {{ __('index.nezgode sa pesacima') }}
+                                                        </a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="pb-2"><a href="/stete-javni-prevoz" class="text-white"
+                                                                        title="Naknada štete u javnom prevozu"><i
+                                                                class="bi bi-arrow-right"></i> {{ __('index.stete u javnom prevozu') }}
+                                                        </a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="pb-2"><a href="/smrtni-slucajevi" class="text-white"
+                                                                        title="Pravna zaštita u slučaju smrtnog slučaja"><i
+                                                                class="bi bi-arrow-right"></i> {{ __('index.smrtni slucajevi') }}
+                                                        </a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="pb-2"><a href="/advokat-za-saobracajke"
+                                                                        class="text-white"
+                                                                        title="Advokat za saobraćajke"><i
+                                                                class="bi bi-arrow-right"></i> {{ __('index.advokat za saobracajke') }}
+                                                        </a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="pb-2"><a href="/povrede-na-radu" class="text-white"
+                                                                        title="Povrede na radu"><i
+                                                                class="bi bi-arrow-right"></i> {{ __('index.povrede na radu') }}
+                                                        </a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="pb-2"><a href="/vrste-saobracajnih-steta"
+                                                                        class="text-white"
+                                                                        title="Vrste štete za žrtve saobraćajne nezgode"><i
+                                                                class="bi bi-arrow-right"></i> {{ __('index.vrste štete') }}
+                                                        </a></td>
+                                                </tr>
+                                            </table>
                                         </div>
                                     </div>
+
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <div class="w-auto mx-lg-auto">
+                                            <table class="mx-lg-auto">
+                                                <tr>
+                                                    <td class="pb-2"><a href="/kasko-stete" class="text-white"
+                                                                        title="Kasko osiguranje i naplata štete"><i
+                                                                class="bi bi-arrow-right"></i> {{ __('index.kasko stete') }}
+                                                        </a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="pb-2"><a href="/stete-na-vozilima" class="text-white"
+                                                                        title="Naknada za štete na vozilima"><i
+                                                                class="bi bi-arrow-right"></i> {{ __('index.stete na vozilima') }}
+                                                        </a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="pb-2"><a href="/stete-na-kamionima" class="text-white"
+                                                                        title="Pravna pomoć za štete na kamionima i teretnim vozilima"><i
+                                                                class="bi bi-arrow-right"></i> {{ __('index.na kamionima') }}
+                                                        </a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="pb-2"><a href="/telesne-povrede" class="text-white"
+                                                                        title="Naknada za telesne povrede u saobraćajnim nezgodama"><i
+                                                                class="bi bi-arrow-right"></i> {{ __('index.telesne povrede') }}
+                                                        </a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="pb-2"><a href="/kasnjenje-leta-na-aerodromu"
+                                                                        class="text-white"
+                                                                        title="Kašnjenje leta na aerodromu"><i
+                                                                class="bi bi-arrow-right"></i> {{ __('index.kasnjenje leta') }}
+                                                        </a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="pb-2"><a href="/mesecna-renta" class="text-white"
+                                                                        title="Mesečna renta"><i
+                                                                class="bi bi-arrow-right"></i> {{ __('index.renta') }}
+                                                        </a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="pb-2"><a href="/stete-na-motociklima" class="text-white"
+                                                                        title="Štete na motociklima"><i
+                                                                class="bi bi-arrow-right"></i> {{ __('index.motocikli') }}
+                                                        </a></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <a class="btn btn-lg btn-primary rounded" href="javascript:void(0)"
+
+                            <a class="btn btn-lg btn-primary rounded mt-auto" href="javascript:void(0)"
                                title="Pročitaj više o saobraćajnim nezgodama">
                                 <i class="bi bi-arrow-up"></i>
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+
+                    <div class="col-lg-4 col-md-6 d-flex wow zoomIn" data-wow-delay="0.9s">
                         <div
-                            class="service-item  manji-item privredno-item bg-light rounded d-flex flex-column align-items-center  ">
+                            class="service-item manji-item privredno-item bg-light rounded d-flex flex-column align-items-center w-100 h-100">
                             <div class="service-icon mt-5 bg-light">
-                                <img src="{{asset("/img/advokatske-usluge/privredno.png")}}" loading="lazy"
-                                     decoding="async" class="img-fluid w-100"
-                                     alt="Ikonica za privredno pravo">
+                                <img src="{{ asset('/img/advokatske-usluge/privredno.png') }}" loading="lazy"
+                                     decoding="async" class="img-fluid w-100" alt="Ikonica za privredno pravo">
                             </div>
-                            <h4 class="mb-3 text-center">{{__("index.privredno pravo")}}</h4>
-                            <p class="m-0">
-                                {!! __("index.privredno usluge") !!}
-                            </p>
-                            <a class="btn btn-lg btn-primary rounded" href="javascript:void(0)"
+                            <h4 class="mb-3 text-center">{{ __('index.privredno pravo') }}</h4>
+                            <p>{!! __('index.privredno usluge') !!}</p>
+                            <a class="btn btn-lg btn-primary rounded " href="javascript:void(0)"
                                title="Pročitaj više o privrednom pravu">
                                 <i class="bi bi-arrow-up"></i>
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+
+                    <div class="col-lg-4 col-md-6 d-flex wow zoomIn" data-wow-delay="0.9s">
                         <div
-                            class="service-item manji-item bg-light rounded d-flex flex-column align-items-center   text-center">
+                            class="service-item manji-item bg-light rounded d-flex flex-column align-items-center text-center w-100 h-100">
                             <div class="service-icon mt-5 bg-light">
-                                <img src="{{asset("/img/advokatske-usluge/obligaciono.png")}}" loading="lazy"
-                                     decoding="async" class="img-fluid w-100"
-                                     alt="Ikonica za obligaciono pravo">
+                                <img src="{{ asset('/img/advokatske-usluge/obligaciono.png') }}" loading="lazy"
+                                     decoding="async" class="img-fluid w-100" alt="Ikonica za obligaciono pravo">
                             </div>
-                            <h4 class="mb-3">{{__("index.obligaciono pravo")}}</h4>
-                            <p class="m-0">
-                                {!! __("index.obligaciono usluge") !!}
-                            </p>
-                            <a class="btn btn-lg btn-primary rounded" href="javascript:void(0)"
+                            <h4 class="mb-3">{{ __('index.obligaciono pravo') }}</h4>
+                            <p>{!! __('index.obligaciono usluge') !!}</p>
+                            <a class="btn btn-lg btn-primary rounded mt-auto" href="javascript:void(0)"
                                title="Pročitaj više o obligacionom pravu">
                                 <i class="bi bi-arrow-up"></i>
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                        <div
-                            class="service-item bg-light manji-item rounded d-flex flex-column align-items-center   text-center">
-                            <div class="service-icon mt-5 bg-light">
-                                <img src="{{asset("/img/advokatske-usluge/krivicno.png")}}" loading="lazy"
-                                     decoding="async" class="img-fluid w-100"
-                                     alt="Ikonica za krivično pravo">
-                            </div>
-                            <h4 class="mb-3">{{__("index.krivicno pravo")}}</h4>
-                            <p class="m-0">
-                                {!! __("index.krivicno usluge") !!}
 
-                            </p>
-                            <a class="btn btn-lg btn-primary rounded" href="javascript:void(0)"
+                    <div class="col-lg-4 col-md-6 d-flex wow zoomIn" data-wow-delay="0.3s">
+                        <div
+                            class="service-item bg-light manji-item rounded d-flex flex-column align-items-center text-center w-100 h-100">
+                            <div class="service-icon mt-5 bg-light">
+                                <img src="{{ asset('/img/advokatske-usluge/krivicno.png') }}" loading="lazy"
+                                     decoding="async" class="img-fluid w-100" alt="Ikonica za krivično pravo">
+                            </div>
+                            <h4 class="mb-3">{{ __('index.krivicno pravo') }}</h4>
+                            <p>{!! __('index.krivicno usluge') !!}</p>
+                            <a class="btn btn-lg btn-primary rounded mt-auto" href="javascript:void(0)"
                                title="Pročitaj više o krivičnom pravu">
-                                <i class="bi bi-arrow-right"></i>
+                                <i class="bi bi-arrow-up"></i>
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+
+                    <div class="col-lg-4 col-md-6 d-flex wow zoomIn" data-wow-delay="0.3s">
                         <div
-                            class="service-item manji-item bg-light rounded d-flex flex-column align-items-center   text-center">
+                            class="service-item manji-item bg-light rounded d-flex flex-column align-items-center text-center w-100 h-100">
                             <div class="service-icon mt-5 bg-light">
-                                <img src="{{asset("/img/advokatske-usluge/osiguranje.png")}}" loading="lazy"
-                                     decoding="async" class="img-fluid w-100"
-                                     alt="Ikonica za pravo osiguranja">
+                                <img src="{{ asset('/img/advokatske-usluge/osiguranje.png') }}" loading="lazy"
+                                     decoding="async" class="img-fluid w-100" alt="Ikonica za pravo osiguranja">
                             </div>
-                            <h4 class="mb-3">{{__("index.osiguranje pravo")}}</h4>
-                            <p class="m-0">     {!! __("index.osiguranje usluge") !!} </p>
-                            <a class="btn btn-lg btn-primary rounded" href="javascript:void(0)"
+                            <h4 class="mb-3">{{ __('index.osiguranje pravo') }}</h4>
+                            <p >{!! __('index.osiguranje usluge') !!}</p>
+                            <a class="btn btn-lg btn-primary rounded mt-auto" href="javascript:void(0)"
                                title="Pročitaj više o pravu osiguranja">
-                                <i class="bi bi-arrow-right"></i>
+                                <i class="bi bi-arrow-up"></i>
                             </a>
                         </div>
                     </div>
@@ -396,7 +418,8 @@
                 <div class="text-slide ">
                     <div class="opp">
                         <p class="text-white">
-                            <i class="fa fa-quote-left"></i>Res iudicata pro veritate habetur<i class="fa fa-quote-right"></i>
+                            <i class="fa fa-quote-left"></i>Res iudicata pro veritate habetur<i
+                                class="fa fa-quote-right"></i>
                         </p>
                         <span class="text-white-50">{{__("index.drugi slajd")}}</span>
                     </div>
@@ -405,7 +428,8 @@
                 <div class="text-slide ">
                     <div class="opp">
                         <p class="text-white">
-                            <i class="fa fa-quote-left"></i>Lex specialis derogat legi generali<i class="fa fa-quote-right"></i>
+                            <i class="fa fa-quote-left"></i>Lex specialis derogat legi generali<i
+                                class="fa fa-quote-right"></i>
                         </p>
                         <span class="text-white-50">{{__("index.treci slajd")}}</span>
                     </div>
@@ -414,7 +438,8 @@
                 <div class="text-slide ">
                     <div class="opp">
                         <p class="text-white">
-                            <i class="fa fa-quote-left"></i>Nullum crimen, nulla poena sine lege<i class="fa fa-quote-right"></i>
+                            <i class="fa fa-quote-left"></i>Nullum crimen, nulla poena sine lege<i
+                                class="fa fa-quote-right"></i>
                         </p>
                         <span class="text-white-50">{{__("index.cetvrti slajd")}}</span>
                     </div>
@@ -902,7 +927,7 @@
                             </div>
 
                             <div class="zaposleni white-papir text-center py-5 me-3 mb-3 fw-bold">
-                                <span class="text-dark">Đordje Marković</span>
+                                <span class="text-dark">Djordje Marković</span>
                                 <br>
                                 {{__('index.pripravnik')}}
                             </div>

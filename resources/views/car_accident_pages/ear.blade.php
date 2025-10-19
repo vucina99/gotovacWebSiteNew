@@ -59,10 +59,10 @@
                                         <img src="{{asset("img/pages/eu_izvestaj.webp")}}"  alt="Popunjavanje evropskog izveštaja o saobraćajnoj nezgodi"
                                              title="Evropski izveštaj – pomoć pri popunjavanju i prijavi saobraćajne nezgode" class="img-fluid">
                                     </div>
-                                    <p>
+                                    <p class='no-copy'>
                                         {!! __("pages.evropski izvestaj strana")  !!}
                                     </p>
-
+                                    <p class="fst-italic text-primary"> <i class="bi text-primary bi-info-circle"></i> {{ __("index.copy") }}</p>
                                 </div>
                             </div>
                             <!-- Blog list End -->

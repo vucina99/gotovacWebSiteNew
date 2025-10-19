@@ -104,7 +104,7 @@
     }
 
     .navbar-dark .navbar-nav .nav-link {
-        padding-left: 0px;
+        padding-left: 0;
     }
 
     .nav-link {
@@ -175,7 +175,7 @@
     }
 
     .privredno-item{
-        min-height: 45vh;
+        min-height: 22vh;
 
     }
 }
@@ -206,9 +206,10 @@
     }
 
     .privredno-item{
-        min-height: 47vh;
+        min-height:22vh;
 
     }
+    
 }
 
 @media (min-width: 1200px) {
@@ -226,6 +227,7 @@
     .section-title h2 {
         font-size: 37px !important;
     }
+
 }
 
 
