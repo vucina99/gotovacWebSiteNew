@@ -168,25 +168,25 @@
                                                title="Naknada za telesne povrede u saobraćajnim nezgodama">
                                                 {{ __("index.telesne povrede") }}
                                             </a><br>
-                                            <a href="/kasnjenje-leta-na-aerodromu"
-                                               title="Kasnjenje leta na aerodromu">{{ __("index.kasnjenje leta") }}</a><br>
+
                                             <a href="/advokat-za-saobracajke" title="Advokat za saobraćajke">
                                                 {{ __("index.advokat za saobracajke") }}
                                             </a><br>
                                             <a href="/mesecna-renta"  title="Mesečna renta">
                                                 {{ __("index.renta") }}
                                             </a><br>
-                                            <a href="/povrede-na-radu"  title="Povrede na radu">
-                                                {{ __("index.povrede na radu") }}
-                                            </a><br>
+
                                             <a href="/vrste-saobracajnih-steta"  title="Vrste štete za žrtve saobraćajne nezgode" >
                                                 {{ __("index.vrste štete") }}
                                             </a><br>
                                             <a href="/stete-na-motociklima"  title="Štete na motociklima">
                                                 {{ __("index.motocikli") }}
                                             </a><br>
-
-
+                                            <a href="/povrede-na-radu"  title="Povrede na radu">
+                                                {{ __("index.povrede na radu") }}
+                                            </a><br>
+                                            <a href="/kasnjenje-leta-na-aerodromu"
+                                               title="Kasnjenje leta na aerodromu">{{ __("index.kasnjenje leta") }}</a><br>
                                         </div>
 
                                         <a href="/#services"

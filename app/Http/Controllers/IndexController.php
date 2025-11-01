@@ -112,7 +112,7 @@ class IndexController extends Controller
     }
     public function contactGotovac(ContactValidate $request)
     {
-        Mail::to(env("MAIL_FROM_ADDRESS"))->send(new SendGotovacMail($request->name, $request->subjcet, $request->email, $request->message));
+        Mail::to("advgotovac@gmail.com")->send(new SendGotovacMail($request->name, $request->subjcet, $request->email, $request->message));
 
         return  redirect()
             ->to(url()->previous() . '#contact-form')->with('success',  __("index.uspesno slanje poruke"));

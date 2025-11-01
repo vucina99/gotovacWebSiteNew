@@ -2,97 +2,134 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <!-- Home -->
     <url>
-        <loc>https://www.advokatigotovac.com/</loc>
-        <lastmod>2025-10-05</lastmod>
+        <loc>https://advokatigotovac.com/</loc>
+        <lastmod>2025-10-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <!-- Usluge – saobraćaj i srodne -->
     <url>
-        <loc>https://www.advokatigotovac.com/evropski-izvestaj</loc>
-        <lastmod>2025-10-05</lastmod>
+        <loc>https://advokatigotovac.com/evropski-izvestaj</loc>
+        <lastmod>2025-10-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://www.advokatigotovac.com/nezgode-sa-pesacima</loc>
-        <lastmod>2025-10-05</lastmod>
+        <loc>https://advokatigotovac.com/nezgode-sa-pesacima</loc>
+        <lastmod>2025-10-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://www.advokatigotovac.com/stete-javni-prevoz</loc>
-        <lastmod>2025-10-05</lastmod>
+        <loc>https://advokatigotovac.com/stete-javni-prevoz</loc>
+        <lastmod>2025-10-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://www.advokatigotovac.com/smrtni-slucajevi</loc>
-        <lastmod>2025-10-05</lastmod>
+        <loc>https://advokatigotovac.com/smrtni-slucajevi</loc>
+        <lastmod>2025-10-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://www.advokatigotovac.com/kasko-stete</loc>
-        <lastmod>2025-10-05</lastmod>
+        <loc>https://advokatigotovac.com/kasko-stete</loc>
+        <lastmod>2025-10-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://www.advokatigotovac.com/stete-na-vozilima</loc>
-        <lastmod>2025-10-05</lastmod>
+        <loc>https://advokatigotovac.com/stete-na-vozilima</loc>
+        <lastmod>2025-10-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://www.advokatigotovac.com/stete-na-kamionima</loc>
-        <lastmod>2025-10-05</lastmod>
+        <loc>https://advokatigotovac.com/stete-na-kamionima</loc>
+        <lastmod>2025-10-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://www.advokatigotovac.com/telesne-povrede</loc>
-        <lastmod>2025-10-05</lastmod>
+        <loc>https://advokatigotovac.com/telesne-povrede</loc>
+        <lastmod>2025-10-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://advokatigotovac.com/kasnjenje-leta-na-aerodromu</loc>
+        <lastmod>2025-10-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://advokatigotovac.com/advokat-za-saobracajke</loc>
+        <lastmod>2025-10-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://advokatigotovac.com/mesecna-renta</loc>
+        <lastmod>2025-10-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://advokatigotovac.com/povrede-na-radu</loc>
+        <lastmod>2025-10-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://advokatigotovac.com/vrste-saobracajnih-steta</loc>
+        <lastmod>2025-10-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://advokatigotovac.com/stete-na-motociklima</loc>
+        <lastmod>2025-10-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <!-- Ostale stranice iz menija -->
     <url>
-        <loc>https://www.advokatigotovac.com/advokatska-tarifa</loc>
-        <lastmod>2025-10-05</lastmod>
+        <loc>https://advokatigotovac.com/advokatska-tarifa</loc>
+        <lastmod>2025-10-21</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.advokatigotovac.com/online-konsultacije</loc>
-        <lastmod>2025-10-05</lastmod>
+        <loc>https://advokatigotovac.com/online-konsultacije</loc>
+        <lastmod>2025-10-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.advokatigotovac.com/kalkulator-trudnicke-naknade</loc>
-        <lastmod>2025-10-05</lastmod>
+        <loc>https://advokatigotovac.com/kalkulator-trudnicke-naknade</loc>
+        <lastmod>2025-10-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.advokatigotovac.com/galerija</loc>
-        <lastmod>2025-10-05</lastmod>
+        <loc>https://advokatigotovac.com/galerija</loc>
+        <lastmod>2025-10-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://www.advokatigotovac.com/kontakt</loc>
-        <lastmod>2025-10-05</lastmod>
+        <loc>https://advokatigotovac.com/kontakt</loc>
+        <lastmod>2025-10-21</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.advokatigotovac.com/blog</loc>
-        <lastmod>2025-10-05</lastmod>
+        <loc>https://advokatigotovac.com/blog</loc>
+        <lastmod>2025-10-21</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
+
 </urlset>
