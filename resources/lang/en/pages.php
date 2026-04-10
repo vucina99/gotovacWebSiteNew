@@ -502,7 +502,22 @@ the insurance company is in your best interest. If it is not, we are ready to fi
 deserve through court proceedings. We will file a lawsuit against the insurance company so<br>
 you can focus on recovering from your injuries. We do not charge legal fees in advance;<br>
 instead, we work on a contingency fee basis, which we will agree on with you. Our goal is to<br>
-secure the maximum indemnity for your injuries and motorcycle damage.</p>"
+secure the maximum indemnity for your injuries and motorcycle damage.</p>",
+    "razvod" => "<p>
+<strong>Marriage</strong> is a legally regulated union of life between a woman and a man. Spouses are obliged to live together and to mutually respect and support each other.<br><br>
+
+However, if the relationship between spouses becomes disrupted and the marriage turns into a <em>dysfunctional relationship filled with disappointment</em>, it is necessary to find a lawyer who will best represent your interests in divorce proceedings.<br><br>
+
+<strong>Divorce proceedings can be initiated in two ways:</strong><br><br>
+
+<strong>1. Uncontested (Mutual) Divorce</strong><br>
+Whenever possible, it is recommended that spouses attempt to overcome their disagreements and submit a <strong>joint petition for divorce by mutual consent</strong>. In this case, spouses must agree on all key matters, including <em>child custody, division of joint property, child support, and the manner of maintaining personal contact between the child and the other parent</em>. This procedure is <strong>faster, simpler, and more cost-effective</strong>, and in most cases is concluded at the first hearing.<br><br>
+
+<strong>2. Contested Divorce (by Lawsuit)</strong><br>
+If spouses are unable to reach an agreement, divorce proceedings are initiated by filing a <strong>lawsuit for divorce</strong>. Within this process, <em>mediation</em> is conducted in an attempt to reconcile the parties or help them reach an agreement on key issues. If reconciliation occurs, the lawsuit is considered withdrawn. Otherwise, the process continues through <strong>settlement negotiations</strong>, aiming to resolve the dispute without conflict.<br><br>
+
+If the settlement is unsuccessful and neither the joint petition nor the lawsuit is withdrawn before the conclusion of the main hearing, the court will issue a <strong>judgment dissolving the marriage</strong>.
+</p>"
 
 
 

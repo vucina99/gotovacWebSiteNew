@@ -494,7 +494,22 @@ spremni smo da dobijemo ono što zaslužujete putem sudskog spora. Podnećemo tu
 osiguravajućeg društva kako biste vi mogli da se fokusirate na oporavak od povreda, kao što smo<br>
 to učinili u hiljadama predmeta do sada. Mi svoju advokatsku naknadu za zastupanje ne<br>
 naplaćujemo avansno unapred od vas, nego radimo na procenat čiju visinu ćemo sporazumno<br>
-ugovoriti, a sve u cilju naknade maksimalne odštete za vaše povrede i štetu na motociklu.</p>"
+ugovoriti, a sve u cilju naknade maksimalne odštete za vaše povrede i štetu na motociklu.</p>",
+    "razvod" => "<p>
+<strong>Brak</strong> je zakonom uređena zajednica života žene i muškarca. Bračni drugovi su dužni da vode zajednički život i da se uzajamno poštuju i pomažu.<br><br>
+
+Međutim, ukoliko se odnosi bračnih drugova poremete i brak postane <em>disfunkcionalan odnos pun razočarenja</em>, potrebno je pronaći advokata koji će na najbolji način zastupati vaše interese u brakorazvodnoj parnici.<br><br>
+
+<strong>Postupak razvoda braka može se pokrenuti na dva načina:</strong><br><br>
+
+<strong>1. Sporazumni razvod braka</strong><br>
+Uvek, ukoliko je to moguće, preporučuje se da supružnici pokušaju da prevaziđu nesuglasice i zaključe <strong>predlog za sporazumni razvod braka</strong>. U tom slučaju potrebno je da se sporazumeju o svim važnim pitanjima: <em>poveravanje deteta, deoba zajedničke imovine, visina izdržavanja i način održavanja ličnih odnosa deteta sa drugim roditeljem</em>. Ovaj postupak je <strong>brži, jednostavniji i ekonomičniji</strong>, i najčešće se završava već na prvom ročištu.<br><br>
+
+<strong>2. Razvod braka tužbom</strong><br>
+Ukoliko sporazum nije moguć, pokreće se postupak <strong>tužbom za razvod braka</strong>. U okviru ovog postupka sprovodi se i <em>posredovanje</em>, sa ciljem da se supružnici pomire ili postignu dogovor. Ako do pomirenja dođe, smatra se da je tužba povučena. U suprotnom, postupak se nastavlja kroz <strong>nagodbu</strong>, čiji je cilj da se spor reši bez konflikta.<br><br>
+
+Ukoliko ni nagodba ne uspe i postupak ne bude obustavljen do zaključenja glavne rasprave, sud donosi <strong>presudu kojom se brak razvodi</strong>.
+</p>"
 
 
 

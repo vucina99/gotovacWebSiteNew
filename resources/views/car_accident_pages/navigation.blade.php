@@ -71,5 +71,9 @@
         <a href="/kasnjenje-leta-na-aerodromu" class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" title="Kasnjenje leta na aerodromu">
             <i  class="bi bi-arrow-right me-2"></i></i> {{ __("index.kasnjenje leta") }}
         </a>
+        <a href="/advokat-za-razvod-braka" class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" title="Advokat za razvod braka">
+            <i  class="bi bi-arrow-right me-2"></i></i>                                             {{ __("index.razvod braka") }}
+
+        </a>
     </div>
 </div>

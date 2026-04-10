@@ -712,6 +712,19 @@
                                     </span>
                                         @enderror
                                     </div>
+                                    <div class="col-12">
+                                        <div class="recaptcha-wrapper">
+                                            <div class="g-recaptcha"
+                                                 data-sitekey="{{ config('services.recaptcha.site_key') }}">
+                                            </div>
+                                        </div>
+
+                                        @error('g-recaptcha-response')
+                                        <div class="text-danger">
+                                            {{ $message }}
+                                        </div>
+                                        @enderror
+                                    </div>
                                     <div class="col-12 pb-5">
                                         <button class="btn bg-light-blue text-white w-100 py-3"
                                                 type="submit">{{__("index.posalji poruku")}}</button>

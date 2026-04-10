@@ -33,11 +33,12 @@ Route::get('/mesecna-renta', [IndexController::class, 'monthlyAnnuity']);
 Route::get('/povrede-na-radu', [IndexController::class, 'workPlaceInjures']);
 Route::get('/vrste-saobracajnih-steta', [IndexController::class, 'damagesTypes']);
 Route::get('/stete-na-motociklima', [IndexController::class, 'motociklesDamage']);
+Route::get('/advokat-za-razvod-braka', [IndexController::class, 'divorce']);
 
 
 
 //post
-Route::post('/contact', [IndexController::class, 'contactGotovac']);
+Route::post('/contact', [IndexController::class, 'contactGotovac'])->middleware('only-serbia');;
 Route::post('/reservation/consultation', [IndexController::class, 'consultationReservation']);
 
 

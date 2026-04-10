@@ -66,6 +66,8 @@ return [
     'privredno pravo' => 'Advokat za privredno pravo',
     'krivicno pravo' => 'Advokat za krivično pravo',
     'obligaciono pravo' => 'Advokat za obligaciono pravo',
+    "razvod braka" => "Advokat za razvod braka",
+
     'osiguranje pravo' => 'Advokat za pravo osiguranja',
     'respolaganje' => 'Za sva dodatna pitanja stojimo Vam na raspolaganju, kontaktirajte nas putem broja telefona, e-mail adrese ili preko kontakt forme.',
     'privredno usluge' => '<ul class="Services-list  w-100">

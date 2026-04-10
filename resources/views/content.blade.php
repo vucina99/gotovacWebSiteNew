@@ -65,6 +65,10 @@
     <meta name="theme-color" content="#0056b3">
     <meta name="format-detection" content="telephone=no">
 
+
+{{--    Recaptcha--}}
+    <script src="https://www.google.com/recaptcha/api.js?hl=hr" async defer></script>
+
 </head>
 
 <body>
@@ -221,6 +225,11 @@
                                            class=" text-decoration-none"
                                            title="Pravo osiguranja — polise i naplata štete">
                                             {{ __("index.osiguranje pravo") }}
+                                        </a><br>
+                                        <a href="/advokat-za-razvod-braka"
+                                           class=" text-decoration-none"
+                                           title="Advokat za razvod braka">
+                                            {{ __("index.razvod braka") }}
                                         </a>
                                     </div>
                                     <a href="/#question" class="nav-item nav-link"
@@ -233,8 +242,8 @@
                                        title="{{__("index.tarifa")}}">{{__("index.tarifa")}}</a>
                                     <a href="/online-konsultacije" class="nav-item nav-link"
                                        title="{{__("index.konsultacije")}}">{{__("index.konsultacije")}}</a>
-                                    <a href="/kalkulator-trudnicke-naknade" class="nav-item nav-link"
-                                       title="{{__("index.za trudnice")}}">{{__("index.za trudnice")}}</a>
+{{--                                    <a href="/kalkulator-trudnicke-naknade" class="nav-item nav-link"--}}
+{{--                                       title="{{__("index.za trudnice")}}">{{__("index.za trudnice")}}</a>--}}
                                     <a href="/galerija" class="nav-item nav-link me-4"
                                        title="{{__("index.galerija")}}">{{__("index.galerija")}}</a>
                                     <a href="/kontakt" class="nav-item nav-link me-4"

@@ -521,3 +521,20 @@ h6,
 body{
     overflow-x: hidden !important;
 }
+.recaptcha-wrapper {
+    width: 100%;
+    transform: scale(1);
+    transform-origin: 0 0;
+}
+
+/* Mobile fix */
+@media (max-width: 450px) {
+    .recaptcha-wrapper {
+        transform: scale(0.80);
+    }
+}
+@media (max-width: 340px) {
+    .recaptcha-wrapper {
+        transform: scale(0.6);
+    }
+}

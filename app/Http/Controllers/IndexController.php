@@ -10,6 +10,7 @@ use App\Models\Blog;
 use App\Models\Consultation;
 use App\Traits\StatusCode;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Mail;
 
 class IndexController extends Controller
@@ -39,6 +40,7 @@ class IndexController extends Controller
 
     public function allowanceCalculator()
     {
+        return redirect("/");
         return view("pages.calculator");
     }
 
@@ -110,8 +112,30 @@ class IndexController extends Controller
     {
         return view("car_accident_pages.motociklesDamage");
     }
+    public function divorce()
+    {
+        return view("car_accident_pages.divorce");
+
+    }
     public function contactGotovac(ContactValidate $request)
     {
+
+
+
+        // 2️⃣ Provera sa Google serverom
+        $response = Http::asForm()->post(
+            'https://www.google.com/recaptcha/api/siteverify',
+            [
+                'secret'   => config('services.recaptcha.secret_key'),
+                'response' => $request->input('g-recaptcha-response'),
+                'remoteip' => $request->ip(),
+            ]
+        );
+        dd($request->input('g-recaptcha-response'));
+        if (! $response->json('success')) {
+             abort(500);
+        }
+
         Mail::to("advgotovac@gmail.com")->send(new SendGotovacMail($request->name, $request->subjcet, $request->email, $request->message));
 
         return  redirect()

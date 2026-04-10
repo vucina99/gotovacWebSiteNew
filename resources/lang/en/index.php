@@ -156,6 +156,7 @@ Our team is dedicated to providing <strong>reliable, professional, and efficient
     'sesti slajd' => "Cicero (principle of hearing the other side)",
     'nema blogova' => "There are currently no posts to display",
     "kasnjenje leta" => "Flight delays at the airport",
+    "razvod braka" => "Divorce lawyer",
     "advokat za saobracajke" => "Lawyer for traffic accidents",
     "renta" => "Monthly annuity",
     "povrede na radu" => "Workplace injuries",

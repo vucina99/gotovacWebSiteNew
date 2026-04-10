@@ -27,6 +27,14 @@ class ContactValidate extends FormRequest
             'subject' => ['required', 'string', 'max:255', 'min:2'],
             'email' => ['required','email', 'max:255'],
             "message" => "required|max:1500|min:3",
+            "g-recaptcha-response" => "required",
+        ];
+    }
+
+    public function messages(): array
+    {
+        return [
+            'g-recaptcha-response.required' => 'Recaptcha je obavezna.',
         ];
     }
     protected function getRedirectUrl()
