@@ -398,6 +398,25 @@
                         </div>
                     </div>
 
+
+
+                    <div class="col-lg-4 col-md-6 d-flex wow zoomIn" data-wow-delay="0.3s">
+                        <div
+                            class="service-item manji-item bg-light rounded d-flex flex-column align-items-center text-center w-100 h-100">
+                            <div class="service-icon mt-5 bg-light">
+                                <img src="{{ asset('/img/advokatske-usluge/porodica.png') }}" loading="lazy"
+                                     decoding="async" class="img-fluid w-100" alt="Ikonica za pravo osiguranja">
+                            </div>
+                            <h4 class="mb-3">{{ __('index.porodica') }}</h4>
+                            <p >{!! __('index.porodica usluge') !!}</p>
+                            <a class="btn btn-lg btn-primary rounded mt-auto" href="javascript:void(0)"
+                               title="Pročitaj više o porodičnom pravu">
+                                <i class="bi bi-arrow-up"></i>
+                            </a>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
         </div>
@@ -867,6 +886,11 @@
                                 <span class="text-dark">Ivana Gotovac</span>
                                 <br>
                                 {{__('index.diplomirani pravnik')}}
+                            </div>
+                            <div class="zaposleni blue-papir text-center py-5 me-3 mb-3 fw-bold">
+                                <span class="text-dark">Ivana Kalauzov</span>
+                                <br>
+                                {{__('index.advokat')}}
                             </div>
                             <div class="zaposleni white-papir text-center py-5 me-3 mb-3 fw-bold">
                                 <span class="text-dark">Milica Veličković</span>

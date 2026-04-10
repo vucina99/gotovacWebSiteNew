@@ -12,7 +12,7 @@ return [
     'Završenih predmeta' => 'Resolved Cases',
     'Godina postojanja' => 'Years in Practice',
     'Zadovoljni klijenti' => 'Satisfied Clients',
-    'Punih 30 godina' => 'For a full 30 years, we have been with you.',
+    'Punih 30 godina' => 'We have been with you for more than 30 years.',
     'tekst o nama' => '<strong>Gotovac Law Office</strong>, with a tradition spanning nearly <strong>three decades</strong>, provides comprehensive and highly professional legal services across the <strong>Republic of Serbia</strong> and the <strong>Republic of Srpska (BiH)</strong>.<br><br>
 
 Our <i>core expertise</i> includes representing both <strong>individuals and legal entities</strong> in <strong>compensation claims</strong> arising from <strong>traffic accidents</strong> and <strong>workplace injuries</strong>, as well as representing <strong>domestic and international companies</strong> in <strong>debt collection</strong> proceedings and the resolution of complex commercial disputes.<br><br>
@@ -162,5 +162,10 @@ Our team is dedicated to providing <strong>reliable, professional, and efficient
     "povrede na radu" => "Workplace injuries",
     "vrste štete" => "Types of damages for traffic accident victims",
     "motocikli" => "Motorcycle damages",
-    "copy" => "Copying of texts from the law firm’s website is prohibited. Copyright in these texts is protected with the Intellectual Property Office under No. 2025/12922 A-0384/25, dated 03.09.2025."
+    "copy" => "Copying of texts from the law firm’s website is prohibited. Copyright in these texts is protected with the Intellectual Property Office under No. 2025/12922 A-0384/25, dated 03.09.2025.",
+    "porodica" => "Family law attorney",
+    "porodica usluge" => '<ul class="Services-list w-100">
+  <li>Consulting and legal representation in divorce proceedings and disputes regarding the division of marital property</li>
+  <li>Legal representation in divorce proceedings based on a mutual agreement proposal and divorce lawsuits</li>
+</ul>',
 ];

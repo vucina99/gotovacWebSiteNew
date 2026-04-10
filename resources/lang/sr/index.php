@@ -12,8 +12,8 @@ return [
     'Završenih predmeta' => 'Završenih predmeta',
     'Godina postojanja' => 'Godina postojanja',
     'Zadovoljni klijenti' => 'Zadovoljni klijenti',
-    'Punih 30 godina' => 'Punih 30 godina smo uz vas',
-    'tekst o nama' => '<strong>Advokatska kancelarija Gotovac</strong>, sa tradicijom dugom gotovo <strong>tri decenije</strong>, pruža sveobuhvatne i visokoprofesionalne pravne usluge na teritoriji <strong>Republike Srbije</strong> i <strong>Republike Srpske (BiH)</strong>.<br><br> Naša <i>uža specijalnost</i> obuhvata zastupanje <strong>fizičkih i pravnih lica</strong> u postupcima <strong>naknade štete</strong> nastale usled <strong>saobraćajnih nezgoda</strong> i <strong>povreda na radu</strong>, kao i zastupanje <strong>domaćih i stranih kompanija</strong> u postupcima <strong>naplate potraživanja</strong> i rešavanja kompleksnih privrednih sporova.<br><br> <strong>Advokat Vladan Gotovac</strong> (<i>Republika Srbija – Beograd</i>) poseduje bogato iskustvo u vođenju <strong>sporova za naknadu štete</strong> i <strong>naplatu potraživanja velike vrednosti</strong>, što našim klijentima garantuje pravnu sigurnost i efikasno ostvarivanje njihovih prava.<br><br> Naš tim je posvećen pružanju <strong>pouzdanih, stručnih i efikasnih pravnih rešenja</strong>, sa ciljem očuvanja i unapređenja <strong>interesa naših klijenata</strong>. Kroz lični pristup, pravnu sigurnost i kontinuiranu posvećenost, nastojimo da izgradimo dugoročno poverenje i budemo prvi izbor u najvažnijim životnim i poslovnim situacijama.<br><br> <strong>Obratite nam se sa poverenjem – vaše pravo je naša obaveza.</strong>.',
+    'Punih 30 godina' => 'Preko 30 godina smo uz Vas',
+    'tekst o nama' => '<strong>Advokatska kancelarija Gotovac</strong>, sa tradicijom preko <strong>tri decenije</strong>, pruža sveobuhvatne i visokoprofesionalne pravne usluge na teritoriji <strong>Republike Srbije</strong> i <strong>Republike Srpske (BiH)</strong>.<br><br> Naša <i>uža specijalnost</i> obuhvata zastupanje <strong>fizičkih i pravnih lica</strong> u postupcima <strong>naknade štete</strong> nastale usled <strong>saobraćajnih nezgoda</strong> i <strong>povreda na radu</strong>, kao i zastupanje <strong>domaćih i stranih kompanija</strong> u postupcima <strong>naplate potraživanja</strong> i rešavanja kompleksnih privrednih sporova.<br><br> <strong>Advokat Vladan Gotovac</strong> (<i>Republika Srbija – Beograd</i>) poseduje bogato iskustvo u vođenju <strong>sporova za naknadu štete</strong> i <strong>naplatu potraživanja velike vrednosti</strong>, što našim klijentima garantuje pravnu sigurnost i efikasno ostvarivanje njihovih prava.<br><br> Naš tim je posvećen pružanju <strong>pouzdanih, stručnih i efikasnih pravnih rešenja</strong>, sa ciljem očuvanja i unapređenja <strong>interesa naših klijenata</strong>. Kroz lični pristup, pravnu sigurnost i kontinuiranu posvećenost, nastojimo da izgradimo dugoročno poverenje i budemo prvi izbor u najvažnijim životnim i poslovnim situacijama.<br><br> <strong>Obratite nam se sa poverenjem – Vaše pravo je naša obaveza.</strong>.',
     'Međunarodno zastupanje' => 'Međunarodno zastupanje',
     '24/7 podrška' => '24/7 podrška',
     'Online konsultacije' => 'Online konsultacije',
@@ -132,7 +132,7 @@ return [
     'Decembar' => "Decembar",
     'izracunaj naknadu' => "Izračunaj naknadu",
     'uputstvo' => 'Uputstvo',
-    'uputstvo text' => 'Unesite iznos primanja za svaki od poslednjih 12 meseci. Ako u nekom mesecu niste imali primanja, ostavite polje prazno. Nakon unosa svih podataka, sistem će automatski izračunati vašu naknadu.',
+    'uputstvo text' => 'Unesite iznos primanja za svaki od poslednjih 12 meseci. Ako u nekom mesecu niste imali primanja, ostavite polje prazno. Nakon unosa svih podataka, sistem će automatski izračunati Vašu naknadu.',
     'iznos' => 'Iznos Vaše trudničke naknade je:',
     'preciznije' => 'Za preciznije informacije i dodatna pitanja, obratite se našoj kancelariji',
     'galerija' => 'Galerija',
@@ -156,5 +156,11 @@ return [
     "povrede na radu" => "Povrede na radu",
     "vrste štete" => "Vrste saobraćajnih šteta",
     "motocikli" => "Štete na motociklima",
-    "copy" => "Zabranjeno je kopiranje teksova sa sajta advokatske kancelarije. Autorsko pravo na tekstovima zasticeno je u Zavodu za intelektualnu svojinu pod brojem 2025/12922 A-0384/25 od dana 03.09.2025 godine."
+    "copy" => "Zabranjeno je kopiranje teksova sa sajta advokatske kancelarije. Autorsko pravo na tekstovima zasticeno je u Zavodu za intelektualnu svojinu pod brojem 2025/12922 A-0384/25 od dana 03.09.2025 godine.",
+    "porodica" => "Advokat za porodicno pravo",
+    'porodica usluge' => '<ul class="Services-list  w-100">
+  <li>Savetovanje i zastupanje u brakorazvodnim parnicama i sporovima oko podele bracne tekovine</li>
+    <li> Zastupanja u postupcima za razvod braka po predlogu za sporazumni razvod braka i po tuzbi za razvod braka</li>
+</ul>',
+
 ];

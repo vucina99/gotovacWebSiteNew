@@ -516,7 +516,9 @@ Whenever possible, it is recommended that spouses attempt to overcome their disa
 <strong>2. Contested Divorce (by Lawsuit)</strong><br>
 If spouses are unable to reach an agreement, divorce proceedings are initiated by filing a <strong>lawsuit for divorce</strong>. Within this process, <em>mediation</em> is conducted in an attempt to reconcile the parties or help them reach an agreement on key issues. If reconciliation occurs, the lawsuit is considered withdrawn. Otherwise, the process continues through <strong>settlement negotiations</strong>, aiming to resolve the dispute without conflict.<br><br>
 
-If the settlement is unsuccessful and neither the joint petition nor the lawsuit is withdrawn before the conclusion of the main hearing, the court will issue a <strong>judgment dissolving the marriage</strong>.
+If the settlement is unsuccessful and neither the joint petition nor the lawsuit is withdrawn before the conclusion of the main hearing, the court will issue a <strong>judgment dissolving the marriage</strong>. <br><br>
+
+We encourage spouses to make an effort to <strong>regulate their mutual relationships</strong> and <strong>resolve their issues</strong> in order to avoid divorce. However, if marital relations are so severely disrupted that <strong>continuing the marriage is no longer possible</strong>, we advise you to <strong>seek proper information</strong> and engage a <strong>lawyer specialized in family law</strong>. A qualified attorney will ensure the <strong>best possible protection of your interests</strong>, as well as the <strong>interests of your child</strong>.
 </p>"
 
 

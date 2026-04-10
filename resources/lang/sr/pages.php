@@ -508,7 +508,10 @@ Uvek, ukoliko je to moguće, preporučuje se da supružnici pokušaju da prevazi
 <strong>2. Razvod braka tužbom</strong><br>
 Ukoliko sporazum nije moguć, pokreće se postupak <strong>tužbom za razvod braka</strong>. U okviru ovog postupka sprovodi se i <em>posredovanje</em>, sa ciljem da se supružnici pomire ili postignu dogovor. Ako do pomirenja dođe, smatra se da je tužba povučena. U suprotnom, postupak se nastavlja kroz <strong>nagodbu</strong>, čiji je cilj da se spor reši bez konflikta.<br><br>
 
-Ukoliko ni nagodba ne uspe i postupak ne bude obustavljen do zaključenja glavne rasprave, sud donosi <strong>presudu kojom se brak razvodi</strong>.
+
+Ukoliko ni nagodba ne uspe i postupak ne bude obustavljen do zaključenja glavne rasprave, sud donosi <strong>presudu kojom se brak razvodi</strong> .<br><br>
+
+Apelujemo na supružnike da pokušaju da <strong>urede svoje međusobne odnose</strong> i <strong>prevaziđu probleme</strong>, kako bi se izbegao razvod braka. Međutim, ukoliko su bračni odnosi u toj meri narušeni da <strong>zajednički život više nije moguć</strong> i brak se ne može održati, savetujemo da se <strong>pravovremeno informišete</strong> i angažujete <strong>advokata specijalizovanog za porodično pravo</strong>. Stručan advokat će na adekvatan način <strong>zaštititi vaše interese</strong>, kao i <strong>interese vašeg deteta</strong>.
 </p>"
 
 
